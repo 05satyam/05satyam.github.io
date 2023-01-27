@@ -1,0 +1,344 @@
+<!--<iframe src="header.html" style="position:absolute; top:0px; left:0px;-->
+<!--  width:100%; height:100%;"></iframe>-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Satyam-Blog</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="../../css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="../../css/style.css" rel="stylesheet">
+</head>
+<body>
+<!--Main Navigation-->
+<header>
+    <!--Navbar-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar" style="background: #24355C;">
+
+        <div class="container">
+
+            <!-- Navbar brand -->
+            <a class="navbar-brand" href="#">Title</a>
+
+            <!-- Collapse button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="basicExampleNav">
+
+                <!-- Links -->
+
+                <ul class="navbar-nav mr-auto smooth-scroll">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://drive.google.com/file/d/1zJrNDd-VTMMW0SXW3DtaIwj9S_1zyGB5/view?usp=share_link" target="_blank">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-footer">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+            <!-- Collapsible content -->
+            <!-- Social Icon  -->
+            <ul class="navbar-nav nav-flex-icons">
+                <li class="nav-item">
+                    <a class="nav-link"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"><i class="fa fa-instagram"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--/.Navbar-->
+</header>
+<!--Main layout-->
+<main class="">
+    <div class="container">
+
+        <!--Section: Best Features-->
+        <section id="best-features" class="text-center">
+
+                <!-- Heading -->
+                <h2 class="mb-5">About Me</h2>
+
+                <!--Grid row-->
+                <div class="row d-flex justify-content-center mb-4">
+
+                    <!--Grid column-->
+                    <div class="col-md-8">
+                        <p>As a tech guy somehow we all encountered the word annotation in tech careers, so what is an annotation?
+                            An annotation is a form of syntactic metadata and used to provide additional information
+                            Examples of few built in annotation : @Override, @Deprecated, @SuppressWarnings etc.
+
+                        </p>
+                        <p>
+                            First question which comes to mind is , How does Java know which is a custom annotation?
+                            This <p class="font-weight-bold">@interface</p> keyword tells Java this is a custom built annotation.
+                            Eg. @interface MyCustomAnnotation{} - Here, MyCustomAnnotation is the custom annotation
+                            name.
+
+
+                        </p>
+                        <p>
+                            <p class="font-weight-bold">Creating an annotation most importantly requires two tags:</p>
+                            (1) a retention policy
+                            (2) a target
+                        </p>
+                        <p>
+                            A <p class ="font-weight-bold">retention policy</p> specifies how long (i.e. program lifecycle) the annotation should be retained for.
+                            For example, annotations may be retained during compile-time or runtime depending on the retention policy associated with that particular annotation.
+                            <p class="font-weight-bold">Retention policies available:</p>
+                            RetentionPolicy.SOURCE, RetentionPolicy.CLASS, RetentionPolicy.RUNTIME
+
+                        </p>
+                        <p>
+                            The target tag of an annotation tells which Java constructs an annotation can be applied to.
+                            For example, some annotations may be valid for methods only, while others may be used for both classes and fields. One or more targets may be associated with an annotation
+
+
+                           <p class="font-weight-bold"> Target policies available are:</p>
+                            ElementType.TYPE, ElementType.FIELD, ElementType.METHOD,
+                            ElementType.CONSTRUCTOR, ElementType.LOCAL_VARIABLE,
+                            ElementType.ANNOTATION_TYPE, ElementType.PARAMETER
+
+                        </p>
+                        <p>
+                        <p class="font-weight-bold">Annotation Parameters</p>
+                            Annotations can also be associated with parameters. These parameters may be a primitive
+                            (such as int),annotation, enum, String, class, or an array of any of the five preceding types.
+                            Types of Annotation on the basis of parameters passed to custom annotation.
+
+                            <p class="font-weight-bold">1.Marker Annotation –</p> This type of annotation only used to mark a declaration. These types of annotation do not contain any method and no data. Here, what matters is its presence.
+                            Eg: @MarkerAnnotation() ---> custom annotation
+                            @Override ---> java inbuilt marker annotation
+                            <p class="font-weight-bold">2.Single-Value Annotation --</p> As the name suggest, these annotation allow only one member, hence
+                            an annotation that has one method is known as Single-Value Annotation. We only need to specify
+                            the value of that member when annotation is used.
+                            Eg: @SingleValueAnnotation(“annotate”)
+
+                            <p class="font-weight-bold">3.Multi-Value Annotation-</p> As the name suggests, an annotation that consists of multiple data members, values.
+                            Eg: @MultiValueAnnotation(name=“multivalue”, value=”category”)
+
+                        </p>
+                        <p>
+                            //Sample Example to create custom annotation
+                            import java.lang.annotation.*;
+                            import java.lang.reflect.*;
+
+                            //Single-Value Annotation
+                            @Retention(RetentionPolicy.RUNTIME)
+                            @Target(ElementType.METHOD)
+                            @interface MyCustomAnnotation{
+                            int value();
+                            }
+                            //Applying annotation
+                            class MyCustomAnnotation1{
+                            @MyCustomAnnotation(value=1)
+                            public void print(){
+                            System.out.println("hello");
+                            }
+                            public static void main(String args[])throws Exception{
+                            MyCustomAnnotation1 customAnnotation1=new MyCustomAnnotation1();
+                            Method m=customAnnotation1.getClass().getMethod("print");
+                            MyCustomAnnotation customAnnotation=m.getAnnotation(MyCustomAnnotation.class);
+                            System.out.println("value : "+customAnnotation.value());
+                            }
+                            }
+
+                            Output: value : 1
+
+                        </p>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+
+
+
+        </section>
+        <!--Section: Best Features-->
+
+
+    </div>
+</main>
+<!--Main layout-->
+
+<!--    <iframe src="footer.html" style="position:absolute;-->
+<!--  width:100%; height:100%; border: none; overflow: hidden;"></iframe>-->
+
+<!--Footer-->
+<!--Footer-->
+<footer class="page-footer font-small blue pt-4 mt-4">
+
+    <!--Footer Links-->
+    <!--Footer Links-->
+    <div class="container mt-5 mb-4 text-center text-md-left">
+        <div class="row mt-3">
+
+            <!--First column-->
+            <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+                <div id = "contact-footer">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <strong>Contact</strong>
+                    </h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <i class="fa fa-home mr-3"></i> Satyam Mittal</p>
+                    <p>
+                        <i class="fa fa-envelope mr-3"></i> satyam05@mail.fresnostate.com</p>
+                    <p>
+                        <i class="fa fa-envelope mr-3"></i> satyam101905@gmail.com</p>
+                </div>
+            </div>
+            <!--/.First column-->
+
+            <!--Second column-->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="text-uppercase font-weight-bold">
+                    <strong>Products</strong>
+                </h6>
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <p>
+                    <a href="#!">Blog</a>
+                </p>
+                <p>
+                    <a href="#!">Portfolio</a>
+                </p>
+
+            </div>
+            <!--/.Second column-->
+
+            <!--Third column-->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="text-uppercase font-weight-bold">
+                    <strong>Useful links</strong>
+                </h6>
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <p>
+                    <a href="https://github.com/05satyam">Github</a>
+                </p>
+                <p>
+                    <a href="https://www.linkedin.com/in/satyam-sm/">LinkedIn</a>
+                </p>
+
+            </div>
+            <!--/.Third column-->
+
+
+
+        </div>
+    </div>
+    <!--/.Footer Links-->
+
+    <footer class="page-footer font-small blue">
+
+        <!-- Social buttons -->
+        <div class="primary-color">
+            <div class="container">
+                <!--Grid row-->
+                <div class="row py-4 d-flex align-items-center">
+
+                    <!--Grid column-->
+                    <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                        <h6 class="mb-0 white-text">Get connected with us on social networks!</h6>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+                        <a class="li-ic" href="https://www.linkedin.com/in/satyam-sm/">
+                            <i class="fa fa-linkedin white-text mr-4"> </i>
+                        </a>
+                        <!--Instagram-->
+                        <a class="ins-ic" href="https://github.com/05satyam">
+                            <i class="fa fa-github white-text mr-4"> </i>
+                        </a>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+            </div>
+        </div>
+        <!-- Social buttons -->
+    </footer>
+    <!--Footer Links-->
+    <!--Copyright-->
+    <!--Footer-->
+    <footer class="page-footer unique-color-dark pt-0">
+        © 2023 Copyright
+        <a href="#">  </a>
+
+        <!--/.Copyright ends-->
+
+    </footer>
+
+</footer>
+<!--Footer-->
+<!-- JQuery -->
+<script type="text/javascript" src="../../js/jquery-3.3.1.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="../../js/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="../../js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="../../js/mdb.min.js"></script>
+<script src="https://maps.google.com/maps/api/js"></script>
+<script>
+    $('.carousel').carousel({
+        interval: 2000,
+    })
+</script>
+<!-- Google Maps settings -->
+<script>
+  // Regular map
+  function regular_map() {
+      var var_location = new google.maps.LatLng(36.870806, 10.197207);
+
+      var var_mapoptions = {
+          center: var_location,
+          zoom: 14
+      };
+
+      var var_map = new google.maps.Map(document.getElementById("map-container"),
+          var_mapoptions);
+
+      var var_marker = new google.maps.Marker({
+          position: var_location,
+          map: var_map,
+          title: "Tunisia"
+      });
+  }
+
+  // Initialize maps
+  google.maps.event.addDomListener(window, 'load', regular_map);
+</script>
+</body>
+
+</html>
