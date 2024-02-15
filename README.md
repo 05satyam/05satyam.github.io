@@ -1,25 +1,25 @@
-# Hi there I'm Satyam!👋
+# Hi there I'm Satyam!👋 Must visit: https://www.tugposts.com;
 ### I belive in "programming is thinking not typing" !!
 
 <!--
 **05satyam/05satyam** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
 
-- 🔭 I’m currently working on M.S. thesis @FresnoState, CA, USA in machine learning.
+- 🔭 Currelty working as Software Engineer@Pre-Fab Innovation, CA, USA;
   
   - **Designed** a new meta-heuristics algorithm for complex optimization problems
     
   - **Thesis Topic** : Blindfolded Spider-Man Optimization: A Single-point Metaheuristic  Suitable for Continuous and Discrete Spaces
+  - [LINK:](https://www.proquest.com/docview/2901409934)
 
-- 🌱 I’m currently learning how meta-heuristic algorithms works for optimization and can we use them to solve NP-hard problems.
   
-- 👯 I’m looking to collaborate on software design projects, machine learning algorithm optimizations and deep learning neural nets.
+- Always looking to collaborate on Software Design projects(solution architecting), Machine Learning 
+ algorithm optimizations, Deep Learning Neural Nets projects ;
   
-- 🤔 I’m looking for help with finding a good place to work and learn **#OpenToWork - Software Engineer**
+- 
 - 📫 **Connect with me:**
      - ➡️ Linkedin: https://www.linkedin.com/in/satyam-sm
      - ➡️ Portfolio: www.satyammittal.com
-     - ➡️ Schedule a 1:1 : https://calendly.com/satyam101905/20min
        
 - 😄 Pronouns: He/Him
 - ⚡ **Fun fact:**
