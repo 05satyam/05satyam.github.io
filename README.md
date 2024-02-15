@@ -9,7 +9,7 @@
 **05satyam/05satyam** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
 
-- 🔭 Currelty working as Software Engineer@Pre-Fab Innovation, CA, USA;
+- Currelty working as Software Engineer@Pre-Fab Innovation, CA, USA;
   
 - **Designed** a new meta-heuristics algorithm for complex optimization problems
     - **Thesis Topic** : Blindfolded Spider-Man Optimization: A Single-point Metaheuristic  Suitable for Continuous and Discrete Spaces
