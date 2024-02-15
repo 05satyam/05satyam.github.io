@@ -1,6 +1,6 @@
 # Hi there I'm Satyam!👋 
 ### I belive in "programming is thinking not typing" !!
-### Must visit: https://www.tugposts.com;
+- ### Must visit: https://www.tugposts.com;
 - 📫 **Connect with me:**
      - ➡️ Linkedin: https://www.linkedin.com/in/satyam-sm
      - ➡️ Portfolio: www.satyammittal.com
