@@ -1,6 +1,10 @@
-# Hi there I'm Satyam!👋 Must visit: https://www.tugposts.com;
+# Hi there I'm Satyam!👋 
 ### I belive in "programming is thinking not typing" !!
-
+### Must visit: https://www.tugposts.com;
+- 📫 **Connect with me:**
+     - ➡️ Linkedin: https://www.linkedin.com/in/satyam-sm
+     - ➡️ Portfolio: www.satyammittal.com
+       
 <!--
 **05satyam/05satyam** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
@@ -14,10 +18,7 @@
 - Always looking to collaborate on Software Design projects(solution architecting), Machine Learning 
  algorithm optimizations, Deep Learning Neural Nets projects ;
   
-- 📫 **Connect with me:**
-     - ➡️ Linkedin: https://www.linkedin.com/in/satyam-sm
-     - ➡️ Portfolio: www.satyammittal.com
-       
+
 - 😄 Pronouns: He/Him
 - ⚡ **Fun fact:**
      - I have a public reading insta page where I post about the books I read. And, my favourite sitcome: The Big Bang Theory
