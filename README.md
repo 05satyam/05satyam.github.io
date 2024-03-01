@@ -21,6 +21,7 @@
 
 - 😄 Pronouns: He/Him
 - ⚡ **Fun fact:**
-     - I have a public reading insta page where I post about the books I read. And, my favourite sitcome: The Big Bang Theory
+     - I have a public reading insta page where I post about the books I read.
+     - Favourite sitcome: The Big Bang Theory
      - One Piece does Exist!!!!
               
