@@ -38,6 +38,25 @@ nav a:hover, nav a:active {
     border: 1px solid #ddd;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
+/* Content layout for image and text side by side */
+.content-section {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; /* Distribute space between text and image */
+    margin-bottom: 20px; /* Add some margin below each section */
+}
+
+.content-text {
+    flex: 1; /* Allows text to fill the space */
+    padding-right: 20px; /* Adds spacing between text and image */
+}
+
+.content-image {
+    flex: 0 0 150px; /* Do not grow, do not shrink, start at 150px wide */
+    max-width: 100%; /* Ensure it's responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: Adds rounded corners to the image */
+}
 
 /* Footer */
 footer {
@@ -59,6 +78,17 @@ footer {
 
     nav a {
         font-size: 14px;
+    }
+    .content-section {
+        flex-direction: column; /* Stack them vertically on smaller screens */
+    }
+
+    .content-image {
+        margin-bottom: 20px; /* Add margin below the image when stacked */
+    }
+
+    .content-text {
+        padding-right: 0; /* Remove the right padding on smaller screens */
     }
 }
 
