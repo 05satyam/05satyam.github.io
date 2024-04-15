@@ -5,15 +5,17 @@ body {
     color: #333;
     line-height: 1.6;
     margin: 0;
-    padding: 0;
+    padding: 10px; /* Added padding to prevent content from touching the edges */
+    box-sizing: border-box; /* Ensures padding does not add to the width */
 }
+
 
 /* Header */
 header {
     background-color: #24292e; /* GitHub-like dark background for header */
     color: #ffffff;
     border-bottom: 1px solid #444c56;
-    padding: 20px 40px;
+    padding: 20px 40px; /* Increased padding for better spacing */
     text-align: center;
 }
 
@@ -31,13 +33,15 @@ nav a:hover, nav a:active {
 
 /* Content Styles */
 .content {
-    width: 85%;
-    margin: 40px auto;
+    width: calc(100% - 20px); /* Adjust width to account for padding */
+    max-width: 1200px; /* Set a max-width for very large displays */
+    margin: 20px auto; /* Center content and add vertical spacing */
     padding: 20px;
     background: white;
     border: 1px solid #ddd;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
+
 /* General Layout Adjustments for Content and Image */
 .content-wrapper {
     display: flex;
@@ -45,12 +49,11 @@ nav a:hover, nav a:active {
     justify-content: start;
     padding: 20px;
 }
-
 .profile-pic {
-    flex: 0 0 120px; /* Fixed width, does not grow or shrink */
+    width: 150px; /* Set width for the image */
     height: auto; /* Maintain aspect ratio */
-    border-radius: 50%; /* Circular image */
     margin-right: 20px; /* Space between image and text */
+    border-radius: 0; /* Remove rounded corners for a rectangle shape */
 }
 
 .content-description {
@@ -73,14 +76,13 @@ footer {
 /* Media Queries for Responsive Design */
 @media (max-width: 768px) {
     .content, header, footer {
-        width: 98%;
+        width: calc(100% - 20px); /* Adjust width to account for padding */
         padding: 10px;
     }
 
     nav a {
         font-size: 14px;
     }
-
     .content-wrapper {
         flex-direction: column;
         align-items: center;
@@ -88,11 +90,15 @@ footer {
     }
 
     .profile-pic {
-        margin-bottom: 20px; /* Space below image when stacked */
+        margin-bottom: 20px; /* Add margin below the image when stacked */
+        width: 100%; /* Full width on smaller screens */
+        max-width: 300px; /* Limit maximum size */
     }
-
     .content-description {
         text-align: center; /* Center text for smaller devices */
+    }
+    .content-section {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
     }
 }
 
