@@ -111,3 +111,27 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+/* Blog Styles */
+.blog-listing {
+    list-style-type: none;
+    padding: 0;
+}
+
+.blog-listing li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.blog-listing li:last-child {
+    border-bottom: none;
+}
+
+.blog-listing a {
+    text-decoration: none;
+    color: #0366d6;
+}
+
+.blog-listing a:hover {
+    text-decoration: underline;
+}
