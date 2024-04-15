@@ -1,40 +1,87 @@
+/* Base Styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f9f9f9;
     color: #333;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
 }
 
+/* Header */
 header {
     background-color: #fff;
-    padding: 10px 20px;
+    border-bottom: 2px solid #eee;
+    padding: 20px 40px;
     text-align: center;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
+/* Navigation */
 nav a {
-    margin-right: 15px;
-    color: #5f5f7d;
+    margin: 0 15px;
+    color: #0275d8;
     text-decoration: none;
+    font-size: 16px;
 }
 
-nav a:hover {
-    color: #0000ff;
+nav a:hover, nav a:active {
+    color: #01447e;
 }
 
+/* Content Styles */
 .content {
+    width: 85%;
+    margin: 20px auto;
     padding: 20px;
-    min-height: 80vh;
+    background: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
+/* Footer */
 footer {
     background-color: #fff;
     text-align: center;
-    padding: 10px;
-    position: fixed;
-    left: 0;
+    padding: 20px 0;
+    border-top: 2px solid #eee;
+    position: relative;
     bottom: 0;
     width: 100%;
-    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .content, header, footer {
+        width: 98%;
+        padding: 10px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+}
+
+/* Profile Picture Styling */
+.profile-pic {
+    max-width: 150px; /* Adjust profile picture size */
+    border-radius: 50%; /* Circular profile picture */
+    margin: 10px auto;
+    display: block;
+}
+
+/* Adjusting Spacing and Font Sizes */
+h1, h2, h3 {
+    color: #333;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p, li {
+    font-size: 16px;
 }
