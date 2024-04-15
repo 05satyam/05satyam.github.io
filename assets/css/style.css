@@ -38,25 +38,26 @@ nav a:hover, nav a:active {
     border: 1px solid #ddd;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
-/* Content layout for image and text side by side */
-.content-section {
+/* General Layout Adjustments for Content and Image */
+.content-wrapper {
     display: flex;
-    align-items: center; /* Align items vertically */
-    justify-content: space-between; /* Distribute space between text and image */
-    margin-bottom: 20px; /* Add some margin below each section */
+    align-items: center;
+    justify-content: start;
+    padding: 20px;
 }
 
-.content-text {
-    flex: 1; /* Allows text to fill the space */
-    padding-right: 20px; /* Adds spacing between text and image */
-}
-
-.content-image {
-    flex: 0 0 150px; /* Do not grow, do not shrink, start at 150px wide */
-    max-width: 100%; /* Ensure it's responsive */
+.profile-pic {
+    flex: 0 0 120px; /* Fixed width, does not grow or shrink */
     height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Optional: Adds rounded corners to the image */
+    border-radius: 50%; /* Circular image */
+    margin-right: 20px; /* Space between image and text */
 }
+
+.content-description {
+    flex: 1; /* Take up remaining space */
+    text-align: left; /* Align text to the left */
+}
+
 
 /* Footer */
 footer {
@@ -79,16 +80,19 @@ footer {
     nav a {
         font-size: 14px;
     }
-    .content-section {
-        flex-direction: column; /* Stack them vertically on smaller screens */
+
+    .content-wrapper {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
-    .content-image {
-        margin-bottom: 20px; /* Add margin below the image when stacked */
+    .profile-pic {
+        margin-bottom: 20px; /* Space below image when stacked */
     }
 
-    .content-text {
-        padding-right: 0; /* Remove the right padding on smaller screens */
+    .content-description {
+        text-align: center; /* Center text for smaller devices */
     }
 }
 
