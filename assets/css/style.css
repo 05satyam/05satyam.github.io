@@ -1,6 +1,6 @@
 /* Base Styles */
 body {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Consolas', 'Courier New', monospace; /* Developer-friendly monospace font */
     background-color: #f9f9f9;
     color: #333;
     line-height: 1.6;
@@ -10,8 +10,9 @@ body {
 
 /* Header */
 header {
-    background-color: #fff;
-    border-bottom: 2px solid #eee;
+    background-color: #24292e; /* GitHub-like dark background for header */
+    color: #ffffff;
+    border-bottom: 1px solid #444c56;
     padding: 20px 40px;
     text-align: center;
 }
@@ -19,19 +20,19 @@ header {
 /* Navigation */
 nav a {
     margin: 0 15px;
-    color: #0275d8;
+    color: #9da5b4; /* Subtle color for navigation links */
     text-decoration: none;
     font-size: 16px;
 }
 
 nav a:hover, nav a:active {
-    color: #01447e;
+    color: #ffffff; /* Bright color for hover state */
 }
 
 /* Content Styles */
 .content {
     width: 85%;
-    margin: 20px auto;
+    margin: 40px auto;
     padding: 20px;
     background: white;
     border: 1px solid #ddd;
@@ -40,10 +41,10 @@ nav a:hover, nav a:active {
 
 /* Footer */
 footer {
-    background-color: #fff;
+    background-color: #24292e;
+    color: #ffffff;
     text-align: center;
     padding: 20px 0;
-    border-top: 2px solid #eee;
     position: relative;
     bottom: 0;
     width: 100%;
@@ -63,7 +64,7 @@ footer {
 
 /* Profile Picture Styling */
 .profile-pic {
-    max-width: 150px; /* Adjust profile picture size */
+    max-width: 20%; /* Size relative to the content area */
     border-radius: 50%; /* Circular profile picture */
     margin: 10px auto;
     display: block;
@@ -71,17 +72,42 @@ footer {
 
 /* Adjusting Spacing and Font Sizes */
 h1, h2, h3 {
-    color: #333;
+    color: #6cc644; /* Green color for headings to give a terminal-like feel */
 }
 
 h1 {
     font-size: 24px;
-}
-
-h2 {
-    font-size: 20px;
+    border-bottom: 2px solid #eee; /* Subtle underlining for main heading */
 }
 
 p, li {
     font-size: 16px;
+    color: #586069; /* Softer text color for readability */
+}
+
+/* Custom Styling for Code and Preformatted Text */
+code, pre {
+    background-color: #f6f8fa;
+    border: 1px solid #e1e4e8;
+    font-size: 14px;
+}
+
+code {
+    padding: 2px 6px;
+    border-radius: 3px;
+    color: #d14;
+}
+
+pre {
+    padding: 8px;
+    overflow: auto;
+}
+
+/* Link Styling */
+a {
+    color: #0366d6; /* Classic link blue for clear visibility */
+}
+
+a:hover {
+    text-decoration: underline;
 }
