@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>{{ site.title }}</h1>
+        <nav>
+            <a href="{{ '/' | relative_url }}">Home</a>
+            <a href="{{ '/education' | relative_url }}">Education</a>
+            <a href="{{ '/experience' | relative_url }}">Experience</a>
+            <a href="{{ '/projects' | relative_url }}">Projects</a>
+            <a href="{{ '/blog' | relative_url }}">Blog</a>
+        </nav>
+    </header>
+    <div class="content">
+        {{ content }}
+    </div>
+    <footer>
+        <p>Connect with me on <a href="https://github.com/{{ site.github_username }}">GitHub</a> or <a href="https://linkedin.com/in/{{ site.linkedin_username }}">LinkedIn</a>.</p>
+        <p><a href="/assets/Resume-Mittal-Satyam.pdf">Download My Resume</a></p>
+    </footer>
+</body>
+</html>
