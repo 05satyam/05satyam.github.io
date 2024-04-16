@@ -15,22 +15,17 @@
             <a href="{{ '/projects' | relative_url }}">Projects</a>
             <a href="{{ '/blog' | relative_url }}">Blog</a>
             <a href="{{ '/accomplishment' | relative_url }}">Accomplishments</a>
-            <a href="/assets/Resume-Mittal-Satyam.pdf">Resume</a>
+            <a href="/assets/Resume-Mittal-Satyam.pdf" target="_blank">Resume</a>
         </nav>
     </header>
-
-    <div class="content-section">
-        <div class="content-text">
-            <h1>Hello</h1>
-            {{ content }} 
-        </div>
-        <img src="/path/to/image.jpg" alt="Descriptive Alt Text" class="content-image">
+    <div class="content">
+        {{ content }}
     </div>
-
     
     <footer>
-        <p>Connect with me on <a href="https://github.com/{{ site.github_username }}">GitHub</a> or <a href="https://linkedin.com/in/{{ site.linkedin_username }}">LinkedIn</a>.</p>
-        <p><a href="/assets/Resume-Mittal-Satyam.pdf">Download My Resume</a></p>
+        <p>Connect with me on 
+            <a href="https://github.com/{{ site.github_username }}">GitHub</a> || <a href="https://linkedin.com/in/{{ site.linkedin_username }}">LinkedIn</a>.</p>
+        <p><a href="/assets/Resume-Mittal-Satyam.pdf" target="_blank">Download My Resume</a></p>
     </footer>
 </body>
 </html>

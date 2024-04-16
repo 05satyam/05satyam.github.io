@@ -26,4 +26,4 @@ Taking it one day at a time, here are some of the accomplishments that have mark
 
 ## Fresno State Teaching Assistant
 - **Role**: TA for CSCI-115 (Data Structures and Algorithms) for 1.5 years as a part-time position.
-- **Responsibilities**: Responsible for conducting undergraduate l
+- **Responsibilities**: Responsible for conducting undergraduate labs
