@@ -5,6 +5,10 @@ title: Projects
 
 # My Software Solutions, Live Projects, and Libraries
 
+**Welcome to my portfolio of projects. For more, visit my [GitHub profile](https://github.com/05satyam).**
+
+---
+
 ## M.S. Thesis: Blindfolded Spider-Man Optimization
 **Topic**: Blindfolded Spider-Man Optimization: A Single-point Metaheuristic Suitable for Continuous and Discrete Space
 
@@ -20,6 +24,8 @@ title: Projects
 
 [**GitHub Repository**](https://github.com/05satyam/BP)
 
+---
+
 ## Tugposts.com
 **Visit**: [Tugposts](https://www.tugposts.com)
 
@@ -28,15 +34,21 @@ title: Projects
 - Designed the static HTML using JavaScript and opted for MySQL over NoSQL based on project requirements.
 - Deployed on AWS using EC2, RDS, VPC, IAM, and NginX for reverse proxy setup.
 
+---
+
 ## Machine Learning Project - Fake News Detection
 Our goal was to predict whether news is real or fake, utilizing Python's sci-kit and nltk libraries with various NLP techniques and machine learning algorithms.
 
-[**GitHub Repository**](https://github.com/05satyam/machine-leanring-small-projects) - This is one of many small implementations of machine learning projects.
+[**GitHub Repository**](https://github.com/05satyam/machine-leanring-small-projects)
+
+---
 
 ## University ListServe
 A ListServe project developed using multiple design patterns like composite, proxy, observer, factory, and singleton for a university's notification, message delivering, and SOS system.
 
 [**GitHub Repository**](https://github.com/05satyam/UniversityListServe/blob/master/READ-ME.txt)
+
+---
 
 ## Custom WC Command Line Tool
 Built a custom version of the Unix command line tool wc to calculate lines, word count, byte size, and character count for input files.
@@ -46,6 +58,8 @@ Built a custom version of the Unix command line tool wc to calculate lines, word
 
 [**GitHub Repository**](https://github.com/05satyam/WcToolCodingPracticeByJohnCrickett)
 
+---
+
 ## Custom Compression Tool like Unix
 Developed a tool for compressing and decompressing text files using Huffman coding, including bit manipulation for header creation and reading.
 
@@ -53,6 +67,8 @@ Developed a tool for compressing and decompressing text files using Huffman codi
 - Utilized factory and singleton design patterns.
 
 [**GitHub Repository**](https://github.com/05satyam/CompressionToolCodingPracticeByJohnCrickett)
+
+---
 
 ## Data Structure and Algorithm Practice
 An open repository created to practice data structure questions from platforms like Leetcode and Geeks for Geeks.
