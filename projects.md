@@ -20,9 +20,9 @@ title: Projects
 - Analyzed data for statistical significance tests like Shapiro-Wilk, Kruskal-Wallis, and converse test with a 0.05 p-value, alongside Q-Q plots for dataset normalization.
 - Researched LLM’s biases on sentiment analysis of news feeds on world crises.
 
-[**Read more about Buggy Pinball**](https://doi.org/10.1007/978-3-031-23480-4_22) - The repo is private as the work is not published yet.
-[**My Thesis work - Dissertaion**](https://www.proquest.com/docview/2901409934)
-[**GitHub Repository**](https://github.com/05satyam/BP)
+- [**Read more about Buggy Pinball**](https://doi.org/10.1007/978-3-031-23480-4_22)
+- [**My Thesis work - Dissertaion**](https://www.proquest.com/docview/2901409934)
+- [**GitHub Repository**](https://github.com/05satyam/BP) - The repo is private as the work is not published yet.
 
 ---
 
@@ -47,8 +47,7 @@ Exploring the capabilities of large language models, this project focuses on tex
 - **Technologies**: LLM, Langchain, Llamaindex, VectorDB, Huggingface libraries, ML Pipelines
                     (Ingestion-Train-Inference), PyTorch, Transformer Architecture, Vector-Embeddings, Streamlit etc ect...
 - **Note**: This is an ongoing open project work and it will be updated regularly with new technologies.
-
-[**GitHub Repository**](https://github.com/05satyam/large_language_models)
+-[**GitHub Repository**](https://github.com/05satyam/large_language_models)
 
 
 ### Data Analysis and Text Summarization (DATS)
