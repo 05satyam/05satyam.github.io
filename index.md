@@ -6,7 +6,7 @@ title: Home
 # HELLO  
 
 <div class="content-wrapper">
-    <img src="/assets/images/profile_photo.jpeg" alt="Profile Picture" class="profile-pic">
+    <img src="/assets/images/IMG_9064.png" alt="Profile Picture" class="profile-pic">
     <div class="content-description">
         <p>I'm <strong>Satyam Mittal</strong>, a <strong>Machine Learning Engineer</strong> who loves to code.</p>
         <p><strong>I believe in:</strong> Programming is thinking, not typing. With good technology comes great knowledge, and with the exponential growth in AI, daily reading is a must.</p>
