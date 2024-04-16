@@ -6,7 +6,7 @@ title: Work Experience
 # Work Experience
 
 ## Machine Learning Engineer @Pre-Fab Innovations Inc., CA, USA
-**September 2019 - August 2021**
+**Januray 2024 - present**
 
 - **Optimized** the existing document-based LLM model with parameter-efficient fine-tuning combined with quantization and LoRA, designed for filtering construction codes from official documents.
 - **Designed** data ingestion, preprocessing, and model training pipeline on in-house servers and migrated the current flow to AWS SageMaker.
