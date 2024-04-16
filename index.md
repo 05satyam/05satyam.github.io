@@ -18,6 +18,9 @@ title: Home
             <a href="/assets/Resume-Mittal-Satyam.pdf" target="_blank" title="Download Resume">
                 Resume
             </a>
+             <a href="{{ '/blog' | relative_url }}" target="_blank" title="Download Resume">
+                Blogs
+            </a>
         </div>
     </div>
 
