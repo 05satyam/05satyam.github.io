@@ -220,3 +220,16 @@ a:hover {
 .blog-listing a:hover {
     text-decoration: underline;
 }
+
+.skills-section h4 {
+    color: #0056b3;
+    margin-top: 10px;
+}
+
+.skills-section p, .skills-section ul {
+    margin-left: 20px;
+}
+
+.skills-section ul li {
+    list-style-type: disc;
+}
