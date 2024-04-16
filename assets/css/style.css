@@ -47,7 +47,7 @@ nav a:hover, nav a:active {
 
 /* General Layout Adjustments for Content and Image */
 .content-wrapper {
-    display: block;
+    display: flex;
     align-items: center;
     justify-content: start;
     padding: 20px;
