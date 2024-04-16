@@ -30,7 +30,8 @@ title: Education
   - C/C++ and System Programming
 
 ---
-### Skills & Expertise
+
+## Skills & Expertise
 
 #### Programming Languages
 - Java, Python, MySQL, JavaScript

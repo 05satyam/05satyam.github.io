@@ -52,7 +52,7 @@ title: Work Experience
 
 ---
 
-### Skills & Expertise
+## Skills & Expertise
 
 #### Programming Languages
 - Java, Python, MySQL, JavaScript
