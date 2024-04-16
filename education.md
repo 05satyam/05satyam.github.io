@@ -32,9 +32,11 @@ title: Education
 ---
 
 ### Skills & Expertise
-- **Programming Languages**: Java, Python, MySQL, JavaScript (JS)
-- **Frameworks**: JUnit, Spring MVC, Bootstrap, PyTorch, React
+- **Programming Languages**: Java, Python, MySQL, JavaScript
+- **Frameworks**: JUnit, Spring, MVC, Bootstrap, PyTorch, React
 - **Developer Tools**: Git, Jira, NumPy, Scikit-Learn, REST APIs, IntelliJ, Jenkins, Docker
-- **Machine Learning**: LLM's Fine Tuning, Deep Learning Model Design, Prompt Engineering, Metaheuristic Search Algorithm Design, Vector DB
-- **Others**: Data Structure, Object Oriented Programming (OOP), Analytical Skills, Problem Solving, Communication Skills, System Design
+- **Machine Learning**: LLM's Fine Tuning-PEFT, Deep Learning Model Design, Prompt Engineering, Metaheuristic   
+                        Search Algorithm Design, VectorDB, AWS, Sagemaker, ML-Pipeline, Huggingface-Libraries, Transformer Architecture, Model-Quantization
+- **Others**: Data Structure,  System Design, Object Oriented Programming (OOP), Analytical Skills, Problem
+              Solving, Communication Skills
 
