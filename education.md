@@ -30,29 +30,23 @@ title: Education
   - C/C++ and System Programming
 
 ---
+### Skills & Expertise
 
-<h2>Skills & Expertise</h2>
+#### Programming Languages
+- Java, Python, MySQL, JavaScript
 
-<div class="skills-section">
-    <h4>Programming Languages</h4>
-    <p>Java, Python, MySQL, JavaScript</p>
+#### Frameworks
+- JUnit, Spring, MVC, Bootstrap, PyTorch, React
 
-    <h4>Frameworks</h4>
-    <p>JUnit, Spring, MVC, Bootstrap, PyTorch, React</p>
+#### Developer Tools
+- Git, Jira, NumPy, Scikit-Learn, REST APIs, IntelliJ, Jenkins, Docker
 
-    <h4>Developer Tools</h4>
-    <p>Git, Jira, NumPy, Scikit-Learn, REST APIs, IntelliJ, Jenkins, Docker</p>
+#### Machine Learning
+- LLM's Fine Tuning-PEFT, Deep Learning Model Design, Prompt Engineering
+- Metaheuristic Search Algorithm Design, VectorDB, AWS, Sagemaker
+- ML-Pipeline, Huggingface-Libraries, Transformer Architecture, Model-Quantization
 
-    <h4>Machine Learning</h4>
-    <ul>
-        <li><strong>LLM's Fine Tuning-PEFT:</strong> Optimization of language models for better performance.</li>
-        <li><strong>Deep Learning Model Design:</strong> Creating and training models to solve complex tasks.</li>
-        <!-- More items -->
-    </ul>
+#### Additional Skills
+- Data Structure, System Design, Object Oriented Programming (OOP)
+- Analytical Skills, Problem Solving, Communication Skills
 
-    <h4>Additional Skills</h4>
-    <ul>
-        <li><strong>Data Structure & System Design:</strong> Building and analyzing data systems for robust applications.</li>
-        <!-- More items -->
-    </ul>
-</div>

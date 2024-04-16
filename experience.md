@@ -52,28 +52,22 @@ title: Work Experience
 
 ---
 
-<h2>Skills & Expertise</h2>
+### Skills & Expertise
 
-<div class="skills-section">
-    <h4>Programming Languages</h4>
-    <p>Java, Python, MySQL, JavaScript</p>
+#### Programming Languages
+- Java, Python, MySQL, JavaScript
 
-    <h4>Frameworks</h4>
-    <p>JUnit, Spring, MVC, Bootstrap, PyTorch, React</p>
+#### Frameworks
+- JUnit, Spring, MVC, Bootstrap, PyTorch, React
 
-    <h4>Developer Tools</h4>
-    <p>Git, Jira, NumPy, Scikit-Learn, REST APIs, IntelliJ, Jenkins, Docker</p>
+#### Developer Tools
+- Git, Jira, NumPy, Scikit-Learn, REST APIs, IntelliJ, Jenkins, Docker
 
-    <h4>Machine Learning</h4>
-    <ul>
-        <li><strong>LLM's Fine Tuning-PEFT:</strong> Optimization of language models for better performance.</li>
-        <li><strong>Deep Learning Model Design:</strong> Creating and training models to solve complex tasks.</li>
-        <!-- More items -->
-    </ul>
+#### Machine Learning
+- LLM's Fine Tuning-PEFT, Deep Learning Model Design, Prompt Engineering
+- Metaheuristic Search Algorithm Design, VectorDB, AWS, Sagemaker
+- ML-Pipeline, Huggingface-Libraries, Transformer Architecture, Model-Quantization
 
-    <h4>Additional Skills</h4>
-    <ul>
-        <li><strong>Data Structure & System Design:</strong> Building and analyzing data systems for robust applications.</li>
-        <!-- More items -->
-    </ul>
-</div>
+#### Additional Skills
+- Data Structure, System Design, Object Oriented Programming (OOP)
+- Analytical Skills, Problem Solving, Communication Skills
