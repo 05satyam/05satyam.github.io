@@ -8,12 +8,19 @@ title: Home
 <div class="content-wrapper">
     <div class="profile_img_div">
         <img src="/assets/images/IMG_9064.png" alt="Profile Picture" class="profile-pic">
-           <ul>
-                <li><a href="https://github.com/05satyam" target="_blank">GitHub</a></li>
-                <li><a href="https://linkedin.com/in/satyam-sm" target="_blank">LinkedIn</a></li>
-                <li><a href="/assets/resume.pdf" target="_blank">Download my Resume</a></li>
-            </ul>
+        <div class="social-links">
+            <a href="https://github.com/05satyam" target="_blank" title="GitHub">
+                <img src="/assets/images/git.webp" alt="GitHub Icon" class="social-icon">
+            </a>
+            <a href="https://linkedin.com/in/satyam-sm" target="_blank" title="LinkedIn">
+                <img src="/assets/images/linkedin.webp" alt="LinkedIn Icon" class="social-icon">
+            </a>
+            <a href="/assets/resume.pdf" target="_blank" title="Download Resume">
+                Resume
+            </a>
+        </div>
     </div>
+
     <div class="content-description">
         <p>I'm <strong>Satyam Mittal</strong>, a <strong>Machine Learning Engineer</strong> who loves to code.</p>
         <p><strong>I believe in:</strong> Programming is thinking, not typing. With good technology comes great knowledge, and with the exponential growth in AI, daily reading is a must.</p>

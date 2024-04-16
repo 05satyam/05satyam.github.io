@@ -108,9 +108,43 @@ footer {
     height: 20em;
     width: 20em;
 }
-.profile_img_div{
+/* .profile_img_div{
     width: 50%;
+} */
+.profile_img_div {
+    /* display: flex; */
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: #f4f4f4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
+
+.profile_img_div img.profile-pic {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-links img.social-icon {
+    width: 24px; /* Set an appropriate size for your icons */
+    height: auto; /* Maintain aspect ratio */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.social-links a:hover img {
+    transform: scale(1.2); /* Slightly enlarge icons on hover */
+}
+
 /* Adjusting Spacing and Font Sizes */
 h1, h2, h3 {
     color: #6cc644; /* Green color for headings to give a terminal-like feel */
