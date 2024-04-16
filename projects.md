@@ -21,7 +21,7 @@ title: Projects
 - Researched LLM’s biases on sentiment analysis of news feeds on world crises.
 
 [**Read more about Buggy Pinball**](https://doi.org/10.1007/978-3-031-23480-4_22) - The repo is private as the work is not published yet.
-
+[**My Thesis work - Dissertaion**](https://www.proquest.com/docview/2901409934)
 [**GitHub Repository**](https://github.com/05satyam/BP)
 
 ---
