@@ -47,6 +47,7 @@ Exploring the capabilities of large language models, this project focuses on tex
 - **Technologies**: LLM, Langchain, Llamaindex, VectorDB, Huggingface libraries, ML Pipelines
                     (Ingestion-Train-Inference), PyTorch, Transformer Architecture, Vector-Embeddings, Streamlit etc ect...
 - **Note**: This is an ongoing open project work and it will be updated regularly with new technologies.
+
 [**GitHub Repository**](https://github.com/05satyam/large_language_models)
 
 

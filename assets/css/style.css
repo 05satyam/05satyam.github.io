@@ -1,15 +1,21 @@
 /* Base Styles */
 body {
     font-family: 'Consolas', 'Courier New', monospace; /* Developer-friendly monospace font */
-    background-color: #f9f9f9;
+    background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
     margin: 0;
-    padding: 10px; /* Added padding to prevent content from touching the edges */
+    /* padding: 10px; Added padding to prevent content from touching the edges */
     box-sizing: border-box; /* Ensures padding does not add to the width */
+    font-family: Arial, sans-serif;
+    
 }
 
-
+section {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    margin-top: 20px;
+}
 /* Header */
 header {
     background-color: #24292e; /* GitHub-like dark background for header */
@@ -140,18 +146,29 @@ footer {
 }
 
 /* Adjusting Spacing and Font Sizes */
-h1, h2, h3 {
+h3 {
     color: #6cc644; /* Green color for headings to give a terminal-like feel */
+    font-size: 20px;
+    margin-top: 20px;
 }
 
 h1 {
-    font-size: 24px;
-    border-bottom: 2px solid #eee; /* Subtle underlining for main heading */
+    font-size: 28px;
+    color: #333;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
 }
-
+h2{
+    color:#006600;
+    font-size: 24px;
+    margin-top: 30px;
+    
+}
 p, li {
     font-size: 16px;
     color: #586069; /* Softer text color for readability */
+    font-size: 16px;
+    line-height: 1.6;
 }
 
 /* Custom Styling for Code and Preformatted Text */
