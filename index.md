@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# Welcome to My Developer Profile
+# HELLO  
 
 <div class="content-wrapper">
     <img src="/assets/images/profile_photo.jpeg" alt="Profile Picture" class="profile-pic">
@@ -16,6 +16,6 @@ title: Home
 </div>
 
 ## Connect with Me
-- [GitHub](https://github.com/yourusername)
-- [LinkedIn](https://linkedin.com/in/yourusername)
+- [GitHub](https://github.com/05satyam)
+- [LinkedIn](https://linkedin.com/in/satyam-sm)
 - [Download my Resume](/assets/resume.pdf)
