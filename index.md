@@ -8,9 +8,9 @@ title: Home
 <div class="content-wrapper">
     <div class="profile_img_div">
         <img src="/assets/images/IMG_9064.png" alt="Profile Picture" class="profile-pic">
-        -[GitHub](https://github.com/05satyam)
-        -[LinkedIn](https://linkedin.com/in/satyam-sm)
-        -[Download my Resume](/assets/resume.pdf)
+            - [GitHub](https://github.com/05satyam)
+            - [LinkedIn](https://linkedin.com/in/satyam-sm)
+            - [Download my Resume](/assets/resume.pdf)
     </div>
     <div class="content-description">
         <p>I'm <strong>Satyam Mittal</strong>, a <strong>Machine Learning Engineer</strong> who loves to code.</p>
