@@ -36,10 +36,34 @@ title: Projects
 
 ---
 
-## Machine Learning Project - Fake News Detection
-Our goal was to predict whether news is real or fake, utilizing Python's sci-kit and nltk libraries with various NLP techniques and machine learning algorithms.
+## Machine Learning Projects
 
-[**GitHub Repository**](https://github.com/05satyam/machine-leanring-small-projects)
+### Large Language Models (LLM)
+Exploring the capabilities of large language models, this project focuses on text completion and summarization. The model provides personalized insights by processing user-uploaded CSV data.
+
+- **Features**: Text completion, summarization, and personalized insights.
+- **Technology**: Built on the Langchain framework.
+- **User Interaction**: Users upload data via a local system path to receive insights.
+- **Technologies**: LLM, Langchain, Llamaindex, VectorDB, Huggingface libraries, ML Pipelines
+                    (Ingestion-Train-Inference), PyTorch, Transformer Architecture, Vector-Embeddings, Streamlit etc ect...
+- **Note**: This is an ongoing open project work and it will be updated regularly with new technologies.
+[**GitHub Repository**](https://github.com/05satyam/large_language_models)
+
+
+### Data Analysis and Text Summarization (DATS)
+This project implements text completion and summarization capabilities of LLMs to provide insights from personal data. Users can upload CSV files and ask for specific insights, such as job application statuses for a particular month.
+
+- **Implementation**: Utilizes text analysis and summarization to provide insights from CSV data.
+- **Purpose**: A personal tool for understanding and utilizing the Langchain framework.
+- **Example Query**: "Provide me insights on my job applications in March 2024."
+
+[**GitHub Repository**](https://github.com/05satyam/DATS)
+
+
+### Fake News Detection
+Goal was to predict whether news is real or fake, utilizing Python's sci-kit and nltk libraries with various NLP techniques and machine learning algorithms.
+
+[**GitHub Repository**](https://github.com/05satyam/machine-leanring-small-projects) - This is one of many small implementations of machine learning projects.
 
 ---
 
