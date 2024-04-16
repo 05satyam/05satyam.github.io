@@ -52,12 +52,7 @@ nav a:hover, nav a:active {
     justify-content: start;
     padding: 20px;
 }
-.profile-pic {
-    width: 150px; /* Set width for the image */
-    height: auto; /* Maintain aspect ratio */
-    margin-right: 20px; /* Space between image and text */
-    border-radius: 0; /* Remove rounded corners for a rectangle shape */
-}
+
 
 .content-description {
     flex: 1; /* Take up remaining space */
@@ -107,12 +102,15 @@ footer {
 
 /* Profile Picture Styling */
 .profile-pic {
-    max-width: 20%; /* Size relative to the content area */
-    border-radius: 50%; /* Circular profile picture */
+    border-radius: 50%;
     margin: 10px auto;
     display: block;
+    height: 20em;
+    width: 20em;
 }
-
+.profile_img_div{
+    width: 50%;
+}
 /* Adjusting Spacing and Font Sizes */
 h1, h2, h3 {
     color: #6cc644; /* Green color for headings to give a terminal-like feel */
