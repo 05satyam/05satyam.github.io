@@ -152,7 +152,7 @@ footer {
     gap: 20px;
 }
 
-.social-links img.social-icon {
+.social-links img.social-icon  {
     width: 24px; 
     height: auto; 
     transition: transform 0.3s ease; 
@@ -162,7 +162,7 @@ footer {
     transform: scale(1.2); /* Slightly enlarge icons on hover */
     color: #0077cc; 
     text-decoration: underline;
-    transition: color 0.3s ease-in-out; 
+    transition: transform 0.3s ease;
 }
 
 /* Adjusting Spacing and Font Sizes */
