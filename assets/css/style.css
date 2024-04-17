@@ -247,3 +247,35 @@ a:hover {
     color: #333;
     margin-top: 15px;
 }
+
+
+.blog-listing h2 {
+    font-size: 22px;
+    color: #0044cc; /* Darker blue for section titles */
+}
+
+.blog-listing h3 {
+    font-size: 18px;
+    color: #333333; /* Standard text color for sub-sections */
+    margin-bottom: 5px;
+}
+
+.blog-listing p {
+    font-size: 16px;
+    color: #666666; /* Lighter text for descriptions */
+    margin-bottom: 10px; /* Space between description and links */
+}
+
+.blog-listing a {
+    color: #0077cc; /* Link color */
+    text-decoration: none; /* No underline */
+}
+
+.blog-listing a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.blog-listing ul {
+    list-style-type: none; /* No bullets */
+    padding-left: 0; /* Align text to the left */
+}
