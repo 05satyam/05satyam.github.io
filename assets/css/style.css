@@ -10,6 +10,23 @@ body {
     font-family: Arial, sans-serif;
     
 }
+@keyframes wave-hand {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    20%, 60% {
+        transform: rotate(-20deg);
+    }
+    40%, 80% {
+        transform: rotate(10deg);
+    }
+}
+
+.wave-hand {
+    display: inline-block;
+    animation: wave-hand 2s infinite;
+}
+
 
 section {
     border-top: 1px solid #ccc;
@@ -136,13 +153,16 @@ footer {
 }
 
 .social-links img.social-icon {
-    width: 24px; /* Set an appropriate size for your icons */
-    height: auto; /* Maintain aspect ratio */
-    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+    width: 24px; 
+    height: auto; 
+    transition: transform 0.3s ease; 
 }
 
 .social-links a:hover img {
     transform: scale(1.2); /* Slightly enlarge icons on hover */
+    color: #0077cc; 
+    text-decoration: underline;
+    transition: color 0.3s ease-in-out; 
 }
 
 /* Adjusting Spacing and Font Sizes */

@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# HELLO👋  
+# HELLO<span class="wave-hand">👋</span>
 
 <div class="content-wrapper">
     <div class="profile_img_div">
