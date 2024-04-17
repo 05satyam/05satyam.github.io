@@ -14,7 +14,7 @@ title: Blog
 {% endfor %}
 </ul>
 
-<h2>Other Categories</h2>
+<h2>Generic</h2>
 <ul class="blog-listing">
 {% for post in site.posts %}
     {% if post.categories contains 'Others' %}
