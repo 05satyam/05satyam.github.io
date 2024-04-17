@@ -7,6 +7,8 @@
 ---
 layout: post
 title: MLP: Multilayer Perceptron
+date: 2024-04-16
+categories: Deep Learning
 ---
 
 # MLP: Multilayer Perceptron

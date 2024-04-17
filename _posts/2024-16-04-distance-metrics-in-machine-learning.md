@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Distance Metrics in Machine Learning
+date: 2024-04-16
+categories: Deep Learning
 ---
 
 # DISTANCE METRICS IN MACHINE LEARNING 
