@@ -8,7 +8,7 @@ title: Blog
 <h2>Deep Learning</h2>
 <ul class="blog-listing">
 {% for post in site.posts %}
-    {% if post.categories contains 'Deep Learning' %}
+    {% if post.categories contains 'DeepLearning' %}
     <li><a href="{{ post.url | absolute_url }}" target="_blank">{{ post.title }}</a> - {{ post.date | date: "%b %-d, %Y" }}</li>
     {% endif %}
 {% endfor %}

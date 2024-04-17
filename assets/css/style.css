@@ -249,21 +249,17 @@ a:hover {
 }
 
 .blog-listing li {
-    font-size: 16px;
-    color: #666666; /* Lighter text for descriptions */
-    margin-bottom: 10px; /* Space between items */
+    /* font-size: 16px;
+    color: #666666; 
+    margin-bottom: 10px;  */
 }
 
 .blog-listing a {
-    color: #0077cc; /* Link color */
-    text-decoration: none; /* No underline */
+    color: #0077cc; 
+    text-decoration: none;
 }
 
 .blog-listing a:hover {
-    text-decoration: underline; /* Underline on hover */
+    text-decoration: underline; 
 }
 
-.blog-listing ul {
-    list-style-type: none; /* No bullets */
-    padding-left: 0; /* Align text to the left */
-}

@@ -1,7 +1,7 @@
 ---
 title: "Multilayer Perceptron(MLP) : Basics"
 date: 2024-04-16
-categories: Deep Learning
+categories: DeepLearning
 ---
 
 # MLP: Multilayer Perceptron From Scratch
