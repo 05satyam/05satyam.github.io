@@ -23,6 +23,6 @@ title: Blog
 {% endfor %}
 </ul>
 
-<h2>IPYNB-Notebooks</h2>
+### IPYNB-Notebooks
     - [RAG-OpenAIEmbeddings-PineconeDB](https://github.com/05satyam/large_language_models/blob/main/rag/rag_openai_embedding_and_pinecone.ipynb)
     - [RAG-With-Langchain](https://github.com/05satyam/large_language_models/blob/main/rag/rag_with_langchain.ipynb)
