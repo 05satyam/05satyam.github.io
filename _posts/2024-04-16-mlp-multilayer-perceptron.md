@@ -1,17 +1,10 @@
-
-### 2. MLP: Multilayer Perceptron
-
-#### Filename: `mlp-multilayer-perceptron.md`
-
-
 ---
-layout: post
-title: MLP: Multilayer Perceptron
+title: "Multilayer Perceptron(MLP) : Basics"
 date: 2024-04-16
 categories: Deep Learning
 ---
 
-# MLP: Multilayer Perceptron
+# MLP: Multilayer Perceptron From Scratch
 
 ## Overview of Multilayer Perceptron
 - Thanks to for providing the in-depth details:  https://d2l.ai/chapter_multilayer-perceptrons/mlp-implementation.html

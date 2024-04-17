@@ -2,7 +2,7 @@
 layout: post
 title: "Algorithms to Identify the Loner in an Array"
 date: 2024-01-27
-categories: blog
+
 ---
 
 ## Introduction
