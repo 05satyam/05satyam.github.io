@@ -14,6 +14,15 @@ title: Blog
 {% endfor %}
 </ul>
 
+<h2>Pytorch</h2>
+<ul class="blog-listing">
+{% for post in site.posts %}
+    {% if post.categories contains 'PyTorch' %}
+    <li><a href="{{ post.url | absolute_url }}" target="_blank">{{ post.title }}</a> - {{ post.date | date: "%b %-d, %Y" }}</li>
+    {% endif %}
+{% endfor %}
+</ul>
+
 <h2>Generic</h2>
 <ul class="blog-listing">
 {% for post in site.posts %}
@@ -23,6 +32,8 @@ title: Blog
 {% endfor %}
 </ul>
 
-### IPYNB-Notebooks
+### .ipynb-Practice_Notebooks
 - [RAG-OpenAIEmbeddings-PineconeDB](https://github.com/05satyam/large_language_models/blob/main/rag/rag_openai_embedding_and_pinecone.ipynb)
 - [RAG-With-Langchain](https://github.com/05satyam/large_language_models/blob/main/rag/rag_with_langchain.ipynb)
+- [Basic: LoRA-Finetuning](https://github.com/05satyam/large_language_models/blob/main/Simple_LoRA.ipynb)
+- [Semantic Search With Pinecone ](https://github.com/05satyam/large_language_models/blob/main/Semantic_Search_With_Pinecone.ipynb)
