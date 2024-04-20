@@ -35,5 +35,6 @@ title: Blog
 ### .ipynb-Practice_Notebooks
 - [RAG-OpenAIEmbeddings-PineconeDB](https://github.com/05satyam/large_language_models/blob/main/rag/rag_openai_embedding_and_pinecone.ipynb)
 - [RAG-With-Langchain](https://github.com/05satyam/large_language_models/blob/main/rag/rag_with_langchain.ipynb)
+- [RAG-Hybrid Search](https://github.com/05satyam/large_language_models/blob/main/rag/HybridSearch.ipynb)
 - [Basic: LoRA-Finetuning](https://github.com/05satyam/large_language_models/blob/main/Simple_LoRA.ipynb)
 - [Semantic Search With Pinecone ](https://github.com/05satyam/large_language_models/blob/main/Semantic_Search_With_Pinecone.ipynb)
