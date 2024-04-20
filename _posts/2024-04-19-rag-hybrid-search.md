@@ -1,5 +1,5 @@
 ---
-title: "RAG - HYBRID SEARCH"
+title: "RAG - Hybrid Search"
 date: 2024-04-19
 categories: DeepLearning
 ---
