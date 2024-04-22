@@ -72,7 +72,7 @@ categories: DeepLearning
 
 # Step8 : Final Evaluation and Deployment!!!
 
-## Note: The key in machine learning, particularly for predictions like this, is iteration. So, Steps(3-8) can be repeated until suitable performance is achieved. And, these steps depends on the problem statements.
+#### Note: The key in machine learning, particularly for predictions like this, is iteration. So, Steps(3-8) can be repeated until suitable performance is achieved. And, these steps depends on the problem statements.
 
 ---
 
