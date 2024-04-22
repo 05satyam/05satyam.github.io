@@ -32,4 +32,6 @@ categories: DeepLearning
      => This Paper list ways to combine score: Benham, R., & Culpepper, J. S. (2017). Risk-reward trade-offs in rank fusion. In Proceedings of the 22nd Australasian Document 
         Computing Symposium 
 
-#### [.ipynb Notebook](https://github.com/05satyam/large_language_models/blob/main/rag/HybridSearch.ipynb)
+---
+
+## [.ipynb Notebook](https://github.com/05satyam/large_language_models/blob/main/rag/HybridSearch.ipynb)
