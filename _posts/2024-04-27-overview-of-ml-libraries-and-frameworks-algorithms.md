@@ -115,12 +115,20 @@ categories: DeepLearning
 # Classification and Regression Techniques
  
 ## Classification: 
+ - **Objective:** 
+     - Predict a categorical outcome variable(qualitative label).
+     - For example: Email is "spam" or "not spam" or  identify whether a transaction is fraudulent etc.
+     - Evaluation Metrics: Accuracy, Precision, Recall, F1 score, and the area under the ROC curve (AUC-ROC).
  - Linear Models: Logistic Regression, Support Vector Machines (SVM).
  - Tree-Based Models: Decision Trees, Random Forest, Gradient Boosting Machines (GBM), XGBoost, LightGBM.
  - Neural Networks: MLP (Multi-Layer Perceptrons), CNNs (Convolutional Neural Networks), RNNs(Recurrent Neural Networks).
  - Neighbors-Based: K-Nearest Neighbors (KNN).
 
 ## Regression:
+ - **Objective:** 
+     - Predict a continuous outcome variable (dependent variable) based on one or more predictor variables (independent variables).
+     - For example: predict price of a house based on its size, location, and age.
+     - Evaluation Metrics: Mean Squared Error (MSE), Root Mean Squared Error (RMSE), Mean Absolute Error (MAE), R-squared. 
  - Linear Models: Linear Regression, Ridge, Lasso
  - Tree-Based Models: Regression Trees, Random Forest Regression, XGBoost Regression, LightGBM 
    Regression.
