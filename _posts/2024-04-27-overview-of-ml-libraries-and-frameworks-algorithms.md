@@ -40,12 +40,12 @@ categories: DeepLearning
  3. **PyTorch:**  
      - Alternative of Tensorflow and used in high-performance numerical computation and deep 
        learning tasks.
-     - <a href="https://05satyam.github.io/pytorch/2024/03/25/data-preprocessing-using-pytorch.html" target="_blank" rel="noopener noreferrer">Data Preprocessing with Pytorch</a>
+     - <a href="https://05satyam.github.io/pytorch/2024/03/25/data-preprocessing-using-pytorch.html" target="_blank" 
+     rel="noopener noreferrer">Data Preprocessing with Pytorch</a>
+     - <a href="https://05satyam.github.io/pytorch/2024/03/25/data-manipulation-using-pytorch.html" target="_blank" rel="noopener noreferrer">Data Manipulation with Pytorch</a>
 
-      - <a href="https://05satyam.github.io/pytorch/2024/03/25/data-manipulation-using-pytorch.html" target="_blank" rel="noopener noreferrer">Data Manipulation with Pytorch</a>
 
 
- 
  4. **XGBoost: Extreme Gradient Boosting**
      - Optimized distributed gradient boosting library.
      - Supports both classification and regression.
