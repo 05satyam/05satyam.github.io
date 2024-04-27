@@ -131,6 +131,9 @@ categories: DeepLearning
  ### Strategies to Handle Overfitting:
      - Regularization: Techniques like L1, L2 and Elastic Net regularization regularization are 
                        commonly used in linear and logistic regression.
+                    
+                        [Regularization in Detail](https://05satyam.github.io/deeplearning/2024/04/27/ml-regularization.html)
+                       
      - Pruning: Reducing the depth of the tree(Tree-based models).
      - Cross-validation: Using techniques like k-fold cross-validation{dividing the data into 
                          multiple parts}.
