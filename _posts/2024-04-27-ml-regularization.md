@@ -58,9 +58,9 @@ categories: DeepLearning
 ### Elastic Net regularization:
  - Combination of both L1 and L2 regularization. 
  - For example:
-    ```python
-         L = L0 + λ∑∣wi∣ +  (1-λ)∑w<sub>i</sub><sup>2</sup>
-    ```
+ ```python
+     L = L0 + λ∑∣wi∣ +  (1-λ)∑w<sub>i</sub><sup>2</sup>
+ ```
  - Usage:
      - It is a good choice when you have correlated features and you want to balance the feature selection and overfitting prevention or not sure which one to use among L1 and L2 initially.
 
@@ -80,7 +80,6 @@ categories: DeepLearning
      - In LightGBM, Xgboost set : early_stopping_rounds
      - In LLM, setup `Early Stopping Callback Function` 
 
-
 #### Outliers:
  - Data points that deviate significantly from other observations.
  - Outliers can skew and mislead the training process.
@@ -95,8 +94,9 @@ categories: DeepLearning
      - Use Regularization.
      - Visualization : Plot correlation for each parameters.
 
+---
 
-### Example Implementation:
+### Example: Code Implementation:
   
 #### Logistic Regression with L1 and L2:
  ```python
@@ -106,8 +106,8 @@ categories: DeepLearning
      # Sample data
      X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-     # L1 Regularization
-     model_l1 = LogisticRegression(penalty='l1', solver='liblinear')
+     # L1 Regularization: 'solver parameter' specifies the algorithm to use in the optimization problem. 
+     model_l1 = LogisticRegression(penalty='l1', solver='liblinear') #liblinear: binary classification
      model_l1.fit(X_train, y_train)
 
      # L2 Regularization
