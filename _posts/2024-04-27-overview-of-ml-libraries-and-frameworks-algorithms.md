@@ -40,8 +40,10 @@ categories: DeepLearning
  3. PyTorch:  
      - Alternative of Tensorflow and used in high-performance numerical computation and deep 
        learning tasks.
-     - [Data Preprocessing with Pytorch](https://05satyam.github.io/pytorch/2024/03/25/data-preprocessing-using-pytorch.html)
-      - [Data Manipulation with Pytorch](https://05satyam.github.io/pytorch/2024/03/25/data-manipulation-using-pytorch.html)
+     - <a href="https://05satyam.github.io/pytorch/2024/03/25/data-preprocessing-using-pytorch.html" target="_blank" rel="noopener noreferrer">Data Preprocessing with Pytorch</a>
+
+      - <a href="https://05satyam.github.io/pytorch/2024/03/25/data-manipulation-using-pytorch.html" target="_blank" rel="noopener noreferrer">Data Manipulation with Pytorch</a>
+
 
  
  4. XGBoost: Extreme Gradient Boosting
@@ -111,46 +113,44 @@ categories: DeepLearning
       ```
 
 # Classification and Regression Techniques
- ## Classification: 
-     - Linear Models: Logistic Regression, Support Vector Machines (SVM).
-     - Tree-Based Models: Decision Trees, Random Forest, Gradient Boosting Machines (GBM), XGBoost,
-                          LightGBM.
-     - Neural Networks: MLP (Multi-Layer Perceptrons), CNNs (Convolutional Neural Networks), RNNs  
-                        (Recurrent Neural Networks).
-     - Neighbors-Based: K-Nearest Neighbors (KNN).
+ 
+## Classification: 
+ - Linear Models: Logistic Regression, Support Vector Machines (SVM).
+ - Tree-Based Models: Decision Trees, Random Forest, Gradient Boosting Machines (GBM), XGBoost, LightGBM.
+ - Neural Networks: MLP (Multi-Layer Perceptrons), CNNs (Convolutional Neural Networks), RNNs(Recurrent Neural Networks).
+ - Neighbors-Based: K-Nearest Neighbors (KNN).
 
- ## Regression:
-     - Linear Models: Linear Regression, Ridge, Lasso
-     - Tree-Based Models: Regression Trees, Random Forest Regression, XGBoost Regression, LightGBM 
-                          Regression.
-     - Neural Networks: Same as in `Classification`, but with different output layer configurations
+## Regression:
+ - Linear Models: Linear Regression, Ridge, Lasso
+ - Tree-Based Models: Regression Trees, Random Forest Regression, XGBoost Regression, LightGBM 
+   Regression.
+ - Neural Networks: Same as in `Classification`, but with different output layer configurations
                       Support Vector Regression (SVR).
 
 # Handling Overfitting and Underfitting
- ## Overfitting:
-     - It happens when a model learns the detail and noise in the training data to the extent that 
-       it negatively impacts the performance of the model on new data.
 
- ### Strategies to Handle Overfitting:
-     - Regularization: Techniques like L1, L2 and Elastic Net regularization regularization are 
-                       commonly used in linear and logistic regression.
-                    
-                        [Regularization in Detail](https://05satyam.github.io/deeplearning/2024/04/27/ml-regularization.html)
-                       
-     - Pruning: Reducing the depth of the tree(Tree-based models).
-     - Cross-validation: Using techniques like k-fold cross-validation{dividing the data into 
-                         multiple parts}.
-     - Ensemble Methods: Techniques like bagging and boosting reduce variance and bias.
-     - Dropout: Used in neural networks to randomly drops out a certain number of neurons from the 
+## Overfitting:
+ - It happens when a model learns the detail and noise in the training data to the extent that 
+   it negatively impacts the performance of the model on new data.
+
+### Strategies to Handle Overfitting:
+ - Regularization: Techniques like L1, L2 and Elastic Net regularization regularization are commonly used in linear and  
+    logistic regression.
+     - <a href="https://05satyam.github.io/deeplearning/2024/04/27/ml-regularization.html" target="_blank" rel="noopener noreferrer">Regularization in Detail</a>
+              
+ - Pruning: Reducing the depth of the tree(Tree-based models).
+ - Cross-validation: Using techniques like k-fold cross-validation{dividing the data into multiple parts}.
+ - Ensemble Methods: Techniques like bagging and boosting reduce variance and bias.
+ - Dropout: Used in neural networks to randomly drops out a certain number of neurons from the 
                 network during each iteration of training.
 
- ## Underfitting:
-     - It happens when a model is too simple to learn the underlying pattern of the data and fails 
-       to capture the underlying trend.
+## Underfitting:
+ - It happens when a model is too simple to learn the underlying pattern of the data and fails 
+    to capture the underlying trend.
 
- ### Strategies to Handle Underfitting:
-     -  Increasing Model Complexity, Feature Engineering, Decreasing Regularization etc.
+### Strategies to Handle Underfitting:
+ -  Increasing Model Complexity, Feature Engineering, Decreasing Regularization etc.
 
 
 #### Note:
-     -  Choosing the right model and techniques depends greatly on the nature of the data and the specific requirements of the application. Always start with simple!!!
+ -  Choosing the right model and techniques depends greatly on the nature of the data and the specific requirements of the application. Always start with simple!!!
