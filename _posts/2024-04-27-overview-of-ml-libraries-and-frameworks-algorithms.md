@@ -43,11 +43,13 @@ categories: DeepLearning
      - [Data Preprocessing with Pytorch](https://05satyam.github.io/pytorch/2024/03/25/data-preprocessing-using-pytorch.html)
       - [Data Manipulation with Pytorch](https://05satyam.github.io/pytorch/2024/03/25/data-manipulation-using-pytorch.html)
 
+ 
  4. XGBoost: Extreme Gradient Boosting
      - Optimized distributed gradient boosting library.
      - Supports both classification and regression.
      - Supports regularization to prevent overfitting.
-     ```python
+     
+      ```python
         import xgboost as xgb
         from sklearn.model_selection import train_test_split
         from sklearn.metrics import mean_squared_error
@@ -72,12 +74,13 @@ categories: DeepLearning
         predictions = model.predict(xgb.DMatrix(X_test))
         print("RMSE:", mean_squared_error(y_test, predictions, squared=False))
 
-     ```
+      ```
  5. LightGBM:
      - It is a gradient boosting framework and uses tree based algorithms.
      - It is designed for distributed and efficient training for large datasets.
      - Supports categorical features.
-     ```python
+      
+      ```python
         import lightgbm as lgb
         from sklearn.model_selection import train_test_split
         from sklearn.metrics import accuracy_score
@@ -105,7 +108,7 @@ categories: DeepLearning
         predicted_classes = [1 if prob > 0.5 else 0 for prob in predictions]
         print("Accuracy:", accuracy_score(y_test, predicted_classes))
 
-     ```
+      ```
 
 # Classification and Regression Techniques
  ## Classification: 
