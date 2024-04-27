@@ -9,11 +9,10 @@ categories: DeepLearning
  - Overfitting is related to high variance.
      - High Variance means: Model's sensitivity to small fluctuations in the training dataset.
                             if you slightly change the training data=> the predictions change significantly.
-     - Bias-Variance Tradeoff: Tradeoff between the error introduced by `bias` and the error 
-                               introduced by `variance`.
-                               - High bias can cause a model to miss relevant relations between features and target outputs (underfitting).
-                               - High variance can cause a model to model random noise in the training data, rather than the intended outputs (overfitting).
-
+     - Bias-Variance Tradeoff: 
+         - Tradeoff between the error introduced by `bias` and the error introduced by `variance`.
+         - High bias can cause a model to miss relevant relations between features and target outputs (underfitting).
+         - High variance can cause a model to model random noise in the training data, rather than the intended outputs (overfitting).
       
 ## Criteria to use? 
  - Usually preffered to use if you see big difference in performance of model outcomes during 
@@ -24,7 +23,7 @@ categories: DeepLearning
  - Model parameters, Dropout, early stoping etc {implicit by the model as hyper parameters}
 
 ### L1(Lasso) Regularization:
- -  Adds a penalty equal to the absolute value of the magnitude of coefficients/weights.
+ - Adds a penalty equal to the absolute value of the magnitude of coefficients/weights.
   ```python
      L = L0 + λ∑∣wi∣
 
@@ -32,8 +31,8 @@ categories: DeepLearning
      wi = model coefficients.
      λ  = regularization parameter hence, controls the strength of the penalty.
     ``` 
- - L1 can yield sparse models where some coefficient weights are exactly zero. 
- - L1 is useful for feature selection, effectively determining which features are important 
+ - L1 can yield `sparse models` where some coefficient weights are exactly zero. 
+ - L1 is useful for `feature selection`, effectively determining which features are important 
        for the prediction.
  - Usage: 
      - Use L1 if you need a sparse model, where feature selection is important and only a 
@@ -95,7 +94,6 @@ categories: DeepLearning
  - To handle:
      - Use Regularization.
      - Visualization : Plot correlation for each parameters.
-
 
 
 ### Example Implementation:

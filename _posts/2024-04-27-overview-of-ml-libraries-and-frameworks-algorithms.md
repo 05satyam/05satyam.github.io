@@ -6,7 +6,7 @@ categories: DeepLearning
 
 
 # Overview of Machine Learning Libraries and Frameworks
- 1. Scikit-learn:
+ 1. **Scikit-learn:**
      - Good for small to medium datasets and supports models like regression, classification, 
        clustering, and dimensionality reduction.
      - Not usually preferred for large data sets or deep learning tasks
@@ -33,11 +33,11 @@ categories: DeepLearning
         print("Accuracy:", accuracy_score(y_test, predictions))
      ```
      
- 2. TensorFlow and Keras:
+ 2. **TensorFlow and Keras:**
      - Used in high-performance numerical computation and deep learning tasks.
      - Supports GPUs
 
- 3. PyTorch:  
+ 3. **PyTorch:**  
      - Alternative of Tensorflow and used in high-performance numerical computation and deep 
        learning tasks.
      - <a href="https://05satyam.github.io/pytorch/2024/03/25/data-preprocessing-using-pytorch.html" target="_blank" rel="noopener noreferrer">Data Preprocessing with Pytorch</a>
@@ -46,7 +46,7 @@ categories: DeepLearning
 
 
  
- 4. XGBoost: Extreme Gradient Boosting
+ 4. **XGBoost: Extreme Gradient Boosting**
      - Optimized distributed gradient boosting library.
      - Supports both classification and regression.
      - Supports regularization to prevent overfitting.
@@ -77,7 +77,7 @@ categories: DeepLearning
         print("RMSE:", mean_squared_error(y_test, predictions, squared=False))
 
       ```
- 5. LightGBM:
+ 5. **LightGBM:**
      - It is a gradient boosting framework and uses tree based algorithms.
      - It is designed for distributed and efficient training for large datasets.
      - Supports categorical features.
