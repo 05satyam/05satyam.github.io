@@ -74,12 +74,13 @@ categories: DeepLearning
 
    ```
  2. Scikit-learn (sklearn.metrics.pairwise):
-   ```python
+  ```python
      from sklearn.metrics.pairwise import euclidean_distances, manhattan_distances, cosine_similarity
      euclidean_distance= euclidean_distances([[1, 1]], [[7, 7]])
      manhattan_distance= manhattan_distances([[1, 1]], [[7, 7]])
      cosine_similarity = cosine_similarity([[1, 1]], [[7, 7]])
-   ```
+  ```
+ 
  3. NumPy: 
   - Itself does not have built-in distance functions like SciPy or Scikit-learn.
   - Often used for manual implementation due to powerful array operations
