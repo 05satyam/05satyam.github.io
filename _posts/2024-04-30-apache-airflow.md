@@ -1,13 +1,14 @@
 ---
+layout: post
 title: "Apache Airflow - Basic Key Components and Initialization"
 date: 2024-04-30
 categories: Others
 ---
 
 
-### Key Idea: Apache Airflow is used for the automation of scheduling.
+## Key Idea: Apache Airflow is used for the automation of scheduling.
 
-### Key Concepts:
+## Key Concepts:
  - **DAGs:** 
      - Directed Acyclic Graphs.
      - An individual run is created when a DAGs is run.
@@ -67,7 +68,7 @@ categories: Others
         result = hook.get_records("SELECT COUNT(*) FROM load_config")# Execute a query using hook
         
     ```
-### Key Components: 
+## Key Components: 
  - **Scheduling/Scheduler:**  
      - How to execute the task.
      - When to execute the task based on intervals.
@@ -93,7 +94,7 @@ categories: Others
 
 
 
-### Setup: I did in Visual Studion in MacOS
+## Setup: I did in Visual Studion in MacOS
 
 ```python
   #Create venv 
