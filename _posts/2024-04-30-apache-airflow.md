@@ -58,7 +58,6 @@ categories: Others
  - **XComs:**
      - Cross communications.
      - Allows to push or pull data between tasks.
-     - 
 
  - **Hooks:**
     - Hooks are interfaces to interact with specific types of external systems or services.
