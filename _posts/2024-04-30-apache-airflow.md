@@ -134,28 +134,29 @@ from airflow import DAG
 from airflow.operators.dummy_operator import DummyOperator
 
 default_args = {
-'owner': 'airflow',
-'retries': 1,
-'retry_delay': datetime.timedelta(minutes=5),
+ 'owner': 'airflow',
+ 'retries': 1,
+ 'retry_delay': datetime.timedelta(minutes=5),
 }
 
 with DAG('sample_dag',
-default_args=default_args,
-description='A dummy DAG',
-schedule_interval=datetime.timedelta(days=1),
-start_date=datetime(2024, 4, 30),
-catchup=False) as dag:
+ default_args=default_args,
+ description='A dummy DAG',
+ schedule_interval=datetime.timedelta(days=1),
+ start_date=datetime(2024, 4, 30),
+ catchup=False
+) as dag:
 
-task1 = BashOperator(
-task_id="print_dagname",
-bash_command="dagname",
-)
-
-task2 = MySqlOperator(
-task_id="load_config",
-mysql_conn_id="mysql_admin",
-sql="SELECT * FROM load_config;"
-)
+  task1 = BashOperator(
+   task_id="print_dagname",
+   bash_command="dagname",
+  )
+  
+  task2 = MySqlOperator(
+   task_id="load_config",
+   mysql_conn_id="mysql_admin",
+   sql="SELECT * FROM load_config;"
+  )
 
 task1 >> task2
 
