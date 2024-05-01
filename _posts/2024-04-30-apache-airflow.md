@@ -1,4 +1,3 @@
-
 ---
 title: "Apache Airflow - Basic Key Components and Initialization"
 date: 2024-04-30
