@@ -97,69 +97,68 @@ categories: Others
 ## Setup: I did in Visual Studion in MacOS
 
 ```python
-  #Create venv 
-  python -m venv airflow_venv
-  source airflow_venv/bin/activate  # On Unix/macOS
-  AIRFLOW_VERSION=2.3.0
+#Create venv 
+python -m venv airflow_venv
+source airflow_venv/bin/activate  # On Unix/macOS
+AIRFLOW_VERSION=2.3.0
 ```
 ```python
-  # Install dependencies
-  PYTHON_VERSION="$(python --version | cut -d " " -f 2 | cut -d "." -f 1-2)"
-  CONSTRAINT_URL="https://raw.githubusercontent.com/apache/airflow/constraints-${AIRFLOW_VERSION}/constraints-${PYTHON_VERSION}.txt"
-  pip install "apache-airflow==${AIRFLOW_VERSION}" --constraint "${CONSTRAINT_URL}"
-```
-
-```python
-  # Initialize the Airflow database
-  airflow db init
+# Install dependencies
+PYTHON_VERSION="$(python --version | cut -d " " -f 2 | cut -d "." -f 1-2)"
+CONSTRAINT_URL="https://raw.githubusercontent.com/apache/airflow/constraints-${AIRFLOW_VERSION}/constraints-${PYTHON_VERSION}.txt"
+pip install "apache-airflow==${AIRFLOW_VERSION}" --constraint "${CONSTRAINT_URL}"
 ```
 
 ```python
-  # Start the web server in one terminal
-  airflow webserver --port 8080
+# Initialize the Airflow database
+airflow db init
 ```
 
 ```python
-  # Start the scheduler in another terminal:
-  airflow scheduler
+# Start the web server in one terminal
+airflow webserver --port 8080
 ```
 
 ```python
-  # Go to the Airflow DAGs folder, typically found in ~/airflow/dags/
-  # Create a new Python file, dummy.py
-  #Below is a sample code, may need some changes to run without errors
+# Start the scheduler in another terminal:
+airflow scheduler
+```
 
-  from datetime import datetime
-  from airflow import DAG
-  from airflow.operators.dummy_operator import DummyOperator
+```python
+# Go to the Airflow DAGs folder, typically found in ~/airflow/dags/
+# Create a new Python file, dummy.py
+#Below is a sample code, may need some changes to run without errors
 
-  default_args = {
-    'owner': 'airflow',
-    'retries': 1,
-    'retry_delay': datetime.timedelta(minutes=5),
-  }
+from datetime import datetime
+from airflow import DAG
+from airflow.operators.dummy_operator import DummyOperator
 
-  with DAG('sample_dag',
-         default_args=default_args,
-         description='A dummy DAG',
-         schedule_interval=datetime.timedelta(days=1),
-         start_date=datetime(2024, 4, 30),
-         catchup=False) as dag:
+default_args = {
+'owner': 'airflow',
+'retries': 1,
+'retry_delay': datetime.timedelta(minutes=5),
+}
 
-     task1 = BashOperator(
-            task_id="print_dagname",
-            bash_command="dagname",
-        )
+with DAG('sample_dag',
+default_args=default_args,
+description='A dummy DAG',
+schedule_interval=datetime.timedelta(days=1),
+start_date=datetime(2024, 4, 30),
+catchup=False) as dag:
 
-     task2 = MySqlOperator(
-            task_id="load_config",
-            mysql_conn_id="mysql_admin",
-            sql="SELECT * FROM load_config;"
-        )
+task1 = BashOperator(
+task_id="print_dagname",
+bash_command="dagname",
+)
 
-     task1 >> task2
+task2 = MySqlOperator(
+task_id="load_config",
+mysql_conn_id="mysql_admin",
+sql="SELECT * FROM load_config;"
+)
 
-    # Open the web interface at http://localhost:8080
-    # Enable your DAG and trigger a run to see it in action.
+task1 >> task2
 
+# Open the web interface at http://localhost:8080
+# Enable your DAG and trigger a run to see it in action.
 ```
