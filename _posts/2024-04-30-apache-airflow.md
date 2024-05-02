@@ -13,7 +13,7 @@ categories: Others
      - Directed Acyclic Graphs.
      - An individual run is created when a DAGs is run.
      - Same DAGs can be executed many times in parallel.
-     ```python
+ ```python
         with DAG(
         "mlops", #name
         default_args={
@@ -23,8 +23,7 @@ categories: Others
         start_date=datetime(2024, 4, 30) # start on
     ) as dag:
         #dag code
-
-     ```
+ ```
 
  - **Tasks:**
      - In simple term, it is an individual piece of code.
@@ -35,7 +34,7 @@ categories: Others
      - Viewed as templates for predefined tasks.
      - Standard templates are: bashOperator, PythonOperator, MySqlOperator, S3FileTransformOperator
      - These operators are defined inside the DAG context manager.
-     ```python
+ ```python
      with DAG(
         "mlops"
     ) as dag:
@@ -50,7 +49,7 @@ categories: Others
             mysql_conn_id="mysql_admin",
             sql="SELECT * FROM load_config;"
         )
-     ```
+ ```
 
  - **Task dependencies:**
      - ">> or <<" symbol: task1 >> task2 ==> first perfom task1 and then task2 like wise for "<<".
@@ -62,12 +61,12 @@ categories: Others
 
  - **Hooks:**
     - Hooks are interfaces to interact with specific types of external systems or services.
-    ```python
+ ```python
         #after intializing the tasks from above
         hook = MySqlHook(mysql_conn_id="mysql_admin")# Retrieve connection using hook
         result = hook.get_records("SELECT COUNT(*) FROM load_config")# Execute a query using hook
         
-    ```
+ ```
 ## Key Components: 
  - **Scheduling/Scheduler:**  
      - How to execute the task.
