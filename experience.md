@@ -8,12 +8,11 @@ title: Work Experience
 ## Machine Learning Engineer @Pre-Fab Innovations Inc., CA, USA
 **Januray 2024 - present**
 
-- Currently working on optimizing the existing document-based LLM model with parameter-efficient fine-tuning combined with quantization and LoRA, designed for filtering construction codes from official documents.
-- Designing data ingestion, preprocessing, and model training pipeline on in-house servers and migrated the current flow to AWS SageMaker.
-- Desigining a work flow to store the processed data{structured and unstructured} in VectorDB(Pinecone) to develop a knowledge base for 
-  ongoing querying systems.
-- Developed data load REST APIs for in-house progress dashboard systems using PHP and JavaScript to track the progress of document validations by architects.
-- Conduct weekly intra-team research discussions to explore new technologies in Machine Learning, vLLM, and their implementation in our ongoing products.
+- Optimizing the existing doc based Layout LLM  model with parameter-efficient-fine-tuning combined with quantization and qLoRA, designed for filtering construction codes from official documents.
+- Integrating Apache Airflow to automate the scheduling of Spark jobs, which are designed to preprocess the documents and information from multiple sources across each US state.
+- Integrating LlamaIndex for loading and indexing the structured and unstructured data from multiple sources into vectorDB and integrating with existing Spark jobs.
+- Conduct weekly intra-team research discussion to explore new technologies in Large Language Models..
+- Collaborating with team members in developing day-to-day business requirements and working on developing data load Rest API’s for in-house progress dashboard systems using PHP, JavaScript.
 
 ## Software Engineer @Paytm, India
 **September 2019 - August 2021**
@@ -65,10 +64,12 @@ title: Work Experience
 - Git, Jira, NumPy, Scikit-Learn, REST APIs, IntelliJ, Jenkins, Docker
 
 #### Machine Learning
-- LLM's Fine Tuning-PEFT, Deep Learning Model Design, Prompt Engineering
-- Metaheuristic Search Algorithm Design, VectorDB, AWS, Sagemaker
-- ML-Pipeline, Huggingface-Libraries, Transformer Architecture, Model-Quantization
+- Deep Learning Model Design, Classification, Regression Models, Load-Train-Test-Deploy-Inference Pipeline, ETL Pipeline
+- ML Libraries : GBM, XGBoost, LightGBM, L1/L2 and Elastic Net regularization
+- LLM's Fine Tuning(PeFT- LoRA, qLoRA), Prompt Engineering
+- Metaheuristic Search Algorithm Design, VectorDB, AWS-Sagemaker
+- Huggingface-Libraries, Transformer Architecture, RAG Architecture
 
-#### Additional Skills
-- Data Structure, System Design, Object Oriented Programming (OOP)
+#### Software Engineering
+- Data Structure, System Design, Object Oriented Programming (OOP), SDLC, Agile Development, TDD
 - Analytical Skills, Problem Solving, Communication Skills
