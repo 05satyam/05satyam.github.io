@@ -36,6 +36,8 @@ title: Work Experience
 - Designed and developed a scalable ERP product to track employee daily biometric attendance and leaves tracker following hierarchical approval of leaves and attendance.
 - Developed REST APIs for 75% of the CRUD operations, APIs for updating attendance biometric data, and leaves. UI/UX product design for the ERP tool using Bootstrap, HTML, and CSS.
 
+---
+
 ## Teaching and Research Experience @CSU-Fresno
 
 ### Graduate Teaching Associate @CSU-Fresno, CA
