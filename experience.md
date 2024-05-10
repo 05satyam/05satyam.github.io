@@ -29,7 +29,8 @@ title: Work Experience
 - Collaborated with the expense management team to develop a microservice for a deep learning OCR parsing model, enhancing B2B expense operational efficiency by 40% and accuracy of 97%.
 - Revamped the complete frontend for the search result page to a single page search result.
 
-## Software Engineer Intern @Zillious Solutions, India
+## Internship
+### Software Engineer @Zillious Solutions, India
 **June 2017 - August 2017**
 
 - Designed and developed a scalable ERP product to track employee daily biometric attendance and leaves tracker following hierarchical approval of leaves and attendance.
