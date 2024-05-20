@@ -8,11 +8,14 @@ title: Work Experience
 ## Machine Learning Engineer @Pre-Fab Innovations Inc., CA, USA
 **Januray 2024 - present**
 
-- Optimizing the existing doc based Layout LLM  model with parameter-efficient-fine-tuning combined with quantization and qLoRA, designed for filtering construction codes from official documents.
-- Integrating Apache Airflow to automate the scheduling of Spark jobs, which are designed to preprocess the documents and information from multiple sources across each US state.
-- Integrating LlamaIndex for loading and indexing the structured and unstructured data from multiple sources into vectorDB and integrating with existing Spark jobs.
-- Conduct weekly intra-team research discussion to explore new technologies in Large Language Models..
-- Collaborating with team members in developing day-to-day business requirements and working on developing data load Rest API’s for in-house progress dashboard systems using PHP, JavaScript.
+- Fine-Tuning the Multi-modality Layout LLM model with parameter-efficient-fine-tuning with advanced
+quantization, mixed precision and qLoRA using Pytorch framework.
+- Integrating vector databases into the product to develop RAG querying agent products designed using Llama.
+- Working alongside business team to develop the users requirements using on going Generative AI LLM technologies
+- Using Jupyter notebook for research-coding and developing ML-Pipeline framework scripts for production release.
+- Proficient in using PyPlot, Seaborn, Pandas, Numpy, Scikit learn, ETL pipeline, and neural net libraries.
+- Conduct weekly intra-team research discussion to explore new technologies in AI/GenAI.
+- Designing Rest APIs, microservices using AGILE-SDLC framework and maintaining code quality.
 
 ## Software Engineer @Paytm, India
 **September 2019 - August 2021**
