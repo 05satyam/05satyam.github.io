@@ -7,16 +7,15 @@ title: Work Experience
 
 ## Machine Learning Engineer @Pre-Fab Innovations Inc., CA, USA
 **Januray 2024 - present**
-
-- Fine-Tuning the Multi-modality Layout LLM model with parameter-efficient-fine-tuning with advanced
-quantization, mixed precision and qLoRA using Pytorch framework.
-- Integrating vector databases into the product to develop RAG querying agent products designed using Llama.
-- Working alongside business team to develop the users requirements using on going Generative AI LLM technologies
-- Using Jupyter notebook for research-coding and developing ML-Pipeline framework scripts for production release.
-- Proficient in using PyPlot, Seaborn, Pandas, Numpy, Scikit learn, ETL pipeline, and neural net libraries.
-- Conduct weekly intra-team research discussion to explore new technologies in AI/GenAI.
-- Designing Rest APIs, microservices using AGILE-SDLC framework and maintaining code quality.
-
+- Doing something with "AI" in construction domain. With AI-Software Engineering, there is lot to learn daily!!!
+- In brief:
+  - Performing Fine Tuning the Multi-modality Layout LLM model with parameter-efficient-fine-tuning with quantization, mixed precision and qLoRA using Pytorch framework.
+  - Integrating vector databases into the product to develop RAG querying agent products.
+  - Research work on exploring LLMs and quantizations techniques to optimize the model size and inference time.
+  - Conduct weekly intra-team research discussion to explore new technologies in AI/GenAI.
+  - Implementing business requirements and designing Rest APIs using AGILE-SDLC.
+  - Proficient in using Jupyter Notebook, PyPlot, Seaborn, Pandas, Numpy, Scikit learn, and neural net libraries, VectorDB, mysql.
+  
 ## Software Engineer @Paytm, India
 **September 2019 - August 2021**
 
