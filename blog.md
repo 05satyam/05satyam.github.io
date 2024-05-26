@@ -17,7 +17,7 @@ title: Blog
 <h2>Pytorch</h2>
 <ul class="blog-listing">
 {% for post in site.posts %}
-    {% if post.categories contains 'PyTorch' %}
+    {% if post.categories contains 'PyTorch' or if post.categories contains 'ML'%}
     <li><a href="{{ post.url | absolute_url }}" target="_blank">{{ post.title }}</a> - {{ post.date | date: "%b %-d, %Y" }}</li>
     {% endif %}
 {% endfor %}
