@@ -43,11 +43,13 @@ title: Education
 - Git, Jira, NumPy, Scikit-Learn, REST APIs, IntelliJ, Jenkins, Docker
 
 #### Machine Learning
-- LLM's Fine Tuning-PEFT, Deep Learning Model Design, Prompt Engineering
-- Metaheuristic Search Algorithm Design, VectorDB, AWS, Sagemaker
-- ML-Pipeline, Huggingface-Libraries, Transformer Architecture, Model-Quantization
+- Deep Learning Model Design, Classification, Regression Models, Load-Train-Test-Deploy-Inference Pipeline, ETL Pipeline
+- ML Libraries : GBM, XGBoost, LightGBM, L1/L2 and Elastic Net regularization
+- LLM's Fine Tuning(PeFT- LoRA, qLoRA), Prompt Engineering
+- Metaheuristic Search Algorithm Design, VectorDB, AWS-Sagemaker
+- Huggingface-Libraries, Transformer Architecture, RAG Architecture
 
-#### Additional Skills
-- Data Structure, System Design, Object Oriented Programming (OOP)
+#### Software Engineering
+- Data Structure, System Design, Object Oriented Programming (OOP), SDLC, Agile Development, TDD
 - Analytical Skills, Problem Solving, Communication Skills
 

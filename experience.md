@@ -7,14 +7,15 @@ title: Work Experience
 
 ## Machine Learning Engineer @Pre-Fab Innovations Inc., CA, USA
 **Januray 2024 - present**
-
-- Currently working on optimizing the existing document-based LLM model with parameter-efficient fine-tuning combined with quantization and LoRA, designed for filtering construction codes from official documents.
-- Designing data ingestion, preprocessing, and model training pipeline on in-house servers and migrated the current flow to AWS SageMaker.
-- Desigining a work flow to store the processed data{structured and unstructured} in VectorDB(Pinecone) to develop a knowledge base for 
-  ongoing querying systems.
-- Developed data load REST APIs for in-house progress dashboard systems using PHP and JavaScript to track the progress of document validations by architects.
-- Conduct weekly intra-team research discussions to explore new technologies in Machine Learning, vLLM, and their implementation in our ongoing products.
-
+- Doing something with "AI" in construction domain. With AI-Software Engineering, there is lot to learn daily!!!
+- In brief:
+  - Performing Fine Tuning the Multi-modality Layout LLM model with parameter-efficient-fine-tuning with quantization, mixed precision and qLoRA using Pytorch framework.
+  - Integrating vector databases into the product to develop RAG querying agent products.
+  - Research work on exploring LLMs and quantizations techniques to optimize the model size and inference time.
+  - Conduct weekly intra-team research discussion to explore new technologies in AI/GenAI.
+  - Implementing business requirements and designing Rest APIs using AGILE-SDLC.
+  - Proficient in using Jupyter Notebook, PyPlot, Seaborn, Pandas, Numpy, Scikit learn, and neural net libraries, VectorDB, mysql.
+  
 ## Software Engineer @Paytm, India
 **September 2019 - August 2021**
 
@@ -30,11 +31,14 @@ title: Work Experience
 - Collaborated with the expense management team to develop a microservice for a deep learning OCR parsing model, enhancing B2B expense operational efficiency by 40% and accuracy of 97%.
 - Revamped the complete frontend for the search result page to a single page search result.
 
-## Software Engineer Intern @Zillious Solutions, India
+## Internship
+### Software Engineer @Zillious Solutions, India
 **June 2017 - August 2017**
 
 - Designed and developed a scalable ERP product to track employee daily biometric attendance and leaves tracker following hierarchical approval of leaves and attendance.
 - Developed REST APIs for 75% of the CRUD operations, APIs for updating attendance biometric data, and leaves. UI/UX product design for the ERP tool using Bootstrap, HTML, and CSS.
+
+---
 
 ## Teaching and Research Experience @CSU-Fresno
 
@@ -65,10 +69,12 @@ title: Work Experience
 - Git, Jira, NumPy, Scikit-Learn, REST APIs, IntelliJ, Jenkins, Docker
 
 #### Machine Learning
-- LLM's Fine Tuning-PEFT, Deep Learning Model Design, Prompt Engineering
-- Metaheuristic Search Algorithm Design, VectorDB, AWS, Sagemaker
-- ML-Pipeline, Huggingface-Libraries, Transformer Architecture, Model-Quantization
+- Deep Learning Model Design, Classification, Regression Models, Load-Train-Test-Deploy-Inference Pipeline, ETL Pipeline
+- ML Libraries : GBM, XGBoost, LightGBM, L1/L2 and Elastic Net regularization
+- LLM's Fine Tuning(PeFT- LoRA, qLoRA), Prompt Engineering
+- Metaheuristic Search Algorithm Design, VectorDB, AWS-Sagemaker
+- Huggingface-Libraries, Transformer Architecture, RAG Architecture
 
-#### Additional Skills
-- Data Structure, System Design, Object Oriented Programming (OOP)
+#### Software Engineering
+- Data Structure, System Design, Object Oriented Programming (OOP), SDLC, Agile Development, TDD
 - Analytical Skills, Problem Solving, Communication Skills
