@@ -9,20 +9,26 @@ title: Work Experience
 **Januray 2024 - present**
 - Doing something with "AI" in construction domain. With AI-Software Engineering, there is lot to learn daily!!!
 - In brief:
-  - Performing Fine Tuning the Multi-modality Layout LLM model with parameter-efficient-fine-tuning with quantization, mixed precision and qLoRA using Pytorch framework.
-  - Integrating vector databases into the product to develop RAG querying agent products.
-  - Research work on exploring LLMs and quantizations techniques to optimize the model size and inference time.
-  - Conduct weekly intra-team research discussion to explore new technologies in AI/GenAI.
-  - Implementing business requirements and designing Rest APIs using AGILE-SDLC.
-  - Proficient in using Jupyter Notebook, PyPlot, Seaborn, Pandas, Numpy, Scikit learn, and neural net libraries, VectorDB, mysql.
+    - Working alongside product  team to develop the users requirements using on going cloud based  AI LLM technologies.
+    - Using Jupyter notebook for EDA research  and developing ML-Pipeline framework scripts for production release
+    - Proficient in using OOPs, SDLC, AGILE framework, code quality, collaborating with Product and business team.
+    - Conduct weekly sprint meetings, intra-team research discussion to explore new technologies in AI/GenAI.
+    - Developing TDD oriented Rest APIs, microservices using AGILE-SDLC framework using Java-Spring framework.
+    - Fine-Tuning the Multi-modality Layout-LLM model with parameter-efficient-fine-tuning with advanced quantization, mixed precision and 
+      qLoRA using Pytorch framework.
+      Data mining and manipulation used  to embed data into vectorDB  to develop RAG querying systems using Llama.
+    - Proficient in using Jupyter Notebook, PyPlot, Seaborn, Pandas, Numpy, Scikit learn, and neural net libraries, VectorDB, mysql.
   
 ## Software Engineer @Paytm, India
 **September 2019 - August 2021**
 
-- Resolved production alerts for increased payment gateways response time, system overload, and system downtime.
-- Designed REST APIs for run-time distributed caching reload on production servers, managed production releases.
-- Wrote mockito-based automation code following TDD approach with detailed documentation using Swagger.
-- Collaborated with cross-functional teams (QA, Product) to develop application business features, assist teams in UAT.
+- Resolved production alerts for increase in payment gateways response time, system overload, system downtime.
+- Designed JAVA based Rest API’s for run-time distributed caching reload on production servers.
+- Managed production  releases on AWS-EC2 with CI/CD pipeline.
+- Wrote mockito based automation code following TDD approach with detailed documentation.
+- Collaborated with cross-functional teams(QA , Product) to develop business features, assist teams in UAT.
+- Gained experience in backend development with focus on scalable and maintainable code.
+
 
 ## Technical Associate(SDE) @Zillious Solutions, India
 **June 2018 - September 2019**
