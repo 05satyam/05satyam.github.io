@@ -5,7 +5,8 @@ categories: DeepLearning
 ---
 # Understanding Evaluation Metrics for Language Models
  - Source: [Understanding Evaluation Metrics for Language Models - The Gradient](https://thegradient.pub/understanding-evaluation-metrics-for-language-models/)
-If you're diving into the world of language models, you'll quickly encounter several key evaluation metrics. Here’s a comprehensive overview to help you understand these metrics and their importance.
+   
+ - If you're diving into the world of language models, you'll quickly encounter several key evaluation metrics. Here’s a comprehensive overview to help you understand these metrics and their importance.
 
 ## Key Metrics
 
