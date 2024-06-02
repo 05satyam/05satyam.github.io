@@ -16,7 +16,7 @@ title: Work Experience
     - Developing TDD oriented Rest APIs, microservices using AGILE-SDLC framework using Java-Spring framework.
     - Fine-Tuning the Multi-modality Layout-LLM model with parameter-efficient-fine-tuning with advanced quantization, mixed precision and 
       qLoRA using Pytorch framework.
-      Data mining and manipulation used  to embed data into vectorDB  to develop RAG querying systems using Llama.
+    - Data mining and manipulation used  to embed data into vectorDB  to develop RAG querying systems using Llama.
     - Proficient in using Jupyter Notebook, PyPlot, Seaborn, Pandas, Numpy, Scikit learn, and neural net libraries, VectorDB, mysql.
   
 ## Software Engineer @Paytm, India
