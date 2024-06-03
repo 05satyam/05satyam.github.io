@@ -13,7 +13,14 @@ title: Blog
     {% endif %}
 {% endfor %}
 </ul>
-
+<h2>Ops/Design/Architecture</h2>
+<ul class="blog-listing">
+{% for post in site.posts %}
+    {% if post.categories contains 'OPS' %}
+    <li><a href="{{ post.url | absolute_url }}" target="_blank">{{ post.title }}</a> - {{ post.date | date: "%b %-d, %Y" }}</li>
+    {% endif %}
+{% endfor %}
+</ul>
 <h2>Pytorch</h2>
 <ul class="blog-listing">
 {% for post in site.posts %}
