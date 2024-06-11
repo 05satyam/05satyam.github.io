@@ -7,27 +7,35 @@ title: Work Experience
 
 ## Machine Learning Engineer @Pre-Fab Innovations Inc., CA, USA
 **Januray 2024 - present**
-- Doing something with "AI" in construction domain. With AI-Software Engineering, there is lot to learn daily!!!
-- In brief:
-    - Working alongside product  team to develop the users requirements using on going cloud based  AI LLM technologies.
-    - Using Jupyter notebook for EDA research  and developing ML-Pipeline framework scripts for production release
-    - Proficient in using OOPs, SDLC, AGILE framework, code quality, collaborating with Product and business team.
-    - Conduct weekly sprint meetings, intra-team research discussion to explore new technologies in AI/GenAI.
-    - Developing TDD oriented Rest APIs, microservices using AGILE-SDLC framework using Java-Spring framework.
-    - Fine-Tuning the Multi-modality Layout-LLM model with parameter-efficient-fine-tuning with advanced quantization, mixed precision and 
-      qLoRA using Pytorch framework.
-    - Data mining and manipulation used  to embed data into vectorDB  to develop RAG querying systems using Llama.
-    - Proficient in using Jupyter Notebook, PyPlot, Seaborn, Pandas, Numpy, Scikit learn, and neural net libraries, VectorDB, mysql.
+
+**In this exponentially growing AI/ML, I am trying to develop a construction domain specific "AI"** 
+
+**In brief:**
+ - Working in an early stage startup in Software Engineering to build product from base.
+ - Integrating ML-LLMs for easy usage by end-users.
+
+ - Technological stack consist of : 
+    ** Working on vectorDB, Langchain and developing a RAG system.
+    ** Fine Tuning the Multi-modality Layout LLM model with parameter-efficient-fine-tuning with  quantization, mixed precision.
+    ** TextOCR using pytesseract, generating training dataset and designing ETL pipeline.
+    ** Developing ML{train-test-infer} pipeline.
+  
+ - Proficient in using Jupyter Notebook, Exploratory Data Analysis(EDA), E-T-L and ML pipeline, Finetuning, PyPlot, Seaborn, Pandas, Numpy, 
+   Scikit learn, and neural net libraries, LLM, vectorDB, RAG-querying system, AWS services, Docker.
+ - Python, Php, MySQL, System Design, REST APIs design, Javascript, MVC-design, AGILE-developement.
   
 ## Software Engineer @Paytm, India
 **September 2019 - August 2021**
 
+- Fintech domain Software Engineer, who worked on payments gateways, and onboarding ecosystem.
+
+**In brief:**
 - Resolved production alerts for increase in payment gateways response time, system overload, system downtime.
-- Designed JAVA based Rest API’s for run-time distributed caching reload on production servers.
-- Managed production  releases on AWS-EC2 with CI/CD pipeline.
-- Wrote mockito based automation code following TDD approach with detailed documentation.
-- Collaborated with cross-functional teams(QA , Product) to develop business features, assist teams in UAT.
-- Gained experience in backend development with focus on scalable and maintainable code.
+- Designed a Rest API’s for run-time distributed caching reload on production servers, managed production releases.
+- Wrote mockito based automation code following TDD approach with detailed documentation using swagger.
+- Collaborated with cross-functional teams(QA , Product) to develop application business features, assist teams in UAT.
+
+- Technical Stack: Java, Rest APIs, MySQL, System design, Monolithic and Microservice Architecture, Business Logic Algorithm Design, Kibana-queries, Grafana log analysis, On-Call production bugs resolutions.
 
 
 ## Technical Associate(SDE) @Zillious Solutions, India
