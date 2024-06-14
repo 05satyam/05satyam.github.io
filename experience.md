@@ -19,6 +19,9 @@ title: Work Experience
     ** Fine Tuning the Multi-modality Layout LLM model with parameter-efficient-fine-tuning with  quantization, mixed precision.
     ** TextOCR using pytesseract, generating training dataset and designing ETL pipeline.
     ** Developing ML{train-test-infer} pipeline.
+    ** Conducted exploratory data analysis (EDA), identifying key insights to inform model development.
+    ** Developed TDD-oriented REST APIs and microservices using Agile SDLC framework and MVC design patterns.
+    ** Conducted weekly sprint meetings and intra-team research discussions to explore and adopt GenAI technologies.
   
  - Proficient in using Jupyter Notebook, Exploratory Data Analysis(EDA), E-T-L and ML pipeline, Finetuning, PyPlot, Seaborn, Pandas, Numpy, 
    Scikit learn, and neural net libraries, LLM, vectorDB, RAG-querying system, AWS services, Docker.
@@ -30,12 +33,13 @@ title: Work Experience
 - Fintech domain Software Engineer, who worked on payments gateways, and onboarding ecosystem.
 
 **In brief:**
-- Resolved production alerts for increase in payment gateways response time, system overload, system downtime.
-- Designed a Rest API’s for run-time distributed caching reload on production servers, managed production releases.
-- Wrote mockito based automation code following TDD approach with detailed documentation using swagger.
-- Collaborated with cross-functional teams(QA , Product) to develop application business features, assist teams in UAT.
-
-- Technical Stack: Java, Rest APIs, MySQL, System design, Monolithic and Microservice Architecture, Business Logic Algorithm Design, Kibana-queries, Grafana log analysis, On-Call production bugs resolutions.
+- Designed and implemented Java-based REST APIs for runtime distributed caching reloads on production servers.
+- Resolved critical production issues related to payment gateway response times, system overloads, and downtimes.
+- Managed production releases on AWS EC2 using CI/CD pipelines.
+- Collaborated with cross-functional teams (QA, Product) and assisted in A/B and user acceptance testing (UAT).
+- Gained hands-on experience with cloud technologies and container systems such as Docker and Kubernetes.
+- Worked on ML models design
+-  Technical Stack: Java, Rest APIs, MySQL, System design, Monolithic and Microservice Architecture, Business Logic Algorithm Design, Kibana-queries, Grafana log analysis, On-Call production bugs resolutions.
 
 
 ## Technical Associate(SDE) @Zillious Solutions, India
@@ -43,14 +47,15 @@ title: Work Experience
 
 - Worked on full-stack development of Bus B2B booking product, integration of Swagger for system-wide API documentation.
 - Collaborated with the expense management team to develop a microservice for a deep learning OCR parsing model, enhancing B2B expense operational efficiency by 40% and accuracy of 97%.
-- Revamped the complete frontend for the search result page to a single page search result.
+-  Revampedthefront-enddesignforsearch result pages using React-JS.
 
 ## Internship
 ### Software Engineer @Zillious Solutions, India
 **June 2017 - August 2017**
 
-- Designed and developed a scalable ERP product to track employee daily biometric attendance and leaves tracker following hierarchical approval of leaves and attendance.
-- Developed REST APIs for 75% of the CRUD operations, APIs for updating attendance biometric data, and leaves. UI/UX product design for the ERP tool using Bootstrap, HTML, and CSS.
+ - Developed Java-Spring-MVC based Biometric attendance analysis REST APIs for ERP tool used in Zillious Solutions .
+ - Developed UI/UX for the ERP tool and a detailed leave tracking analysis dashboard for the tool.
+ - Tech-stack: Java, Spring-MVC, JavaScript, MySQL, Spring-security, SDLC, Jenkins, CI/CD.
 
 ---
 
