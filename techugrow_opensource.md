@@ -1,3 +1,8 @@
+---
+layout: default
+title: techugrow
+---
+
 # 1. Video Explanantions:
  - QLoRA:
      - [Understanding 4bit Quantization: QLoRA explained (w/ Colab)](https://youtu.be/TPcXVJ1VSRI?t=2518)
