@@ -34,5 +34,7 @@ title: Home
         <p>I have 4 years of tech-industry work experience in developing, testing, and deploying large-scale software solutions.</p>
         <p>Completed my M.S. graduate degree in Computer Science at Fresno State, CA, where I worked on an innovative independent research thesis on Blindfolded Spider-Man Optimization: A Single-point Metaheuristic Suitable for Continuous and Discrete Space. I am eager to apply my skills and knowledge to new challenges and opportunities in the software industry.</p>
     </div>
+
+    <divclass="content-description"><p>I love to read whenever possible, and if you want to join follow me on <strong>instagram at: @social_sharing </strong></p></div>
 </div>
 
