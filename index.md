@@ -33,6 +33,6 @@ title: Home
     <hr/>
     <hr/>
     <p>I love to read whenever possible, and if you want to join follow me on 
-        <strong>instagram at: @social_sharing </strong></p></div>
+        <strong>instagram at: <a href="https://www.instagram.com/social_sharing/" target="_blank" >@social_sharing </strong></a></p></div>
 </div>
 
