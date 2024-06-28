@@ -32,7 +32,8 @@ title: Home
         <p>Completed my M.S. graduate degree in Computer Science at Fresno State, CA, where I worked on an innovative independent research thesis on Blindfolded Spider-Man Optimization: A Single-point Metaheuristic Suitable for Continuous and Discrete Space. I am eager to apply my skills and knowledge to new challenges and opportunities in the software industry.</p>
     <hr/>
     <hr/>
-    <p>I love to read whenever possible, and if you want to join follow me on 
-        <strong>instagram at: <a href="https://www.instagram.com/social_sharing/" target="_blank" >@social_sharing </strong></a></p></div>
+    <p>I love to <strong>read</strong>, and if you want to join follow me on 
+        instagram at: <a href="https://www.instagram.com/social_sharing/" target="_blank" ></a> @social_sharing </p>
+    </div>
 </div>
 
