@@ -5,8 +5,15 @@ title: Work Experience
 
 # Work Experience
 
+## Principal AI Engineer @Ascentt Texas, USA
+**July 2024 - present**
+
+**In brief:**
+Developing GenAI applications for Toyota Motors North America which is impacting the Toyota Manufacturing units and allowing for faster debug of bugs on production line.....
+Exploring the unexplored large-scale horizons of GenAI
+
 ## Machine Learning Engineer @Pre-Fab Innovations Inc., CA, USA
-**Januray 2024 - present**
+**Januray 2024 - July 2024**
 
 **In this exponentially growing AI/ML, I am trying to develop a construction domain specific "AI"** 
 
