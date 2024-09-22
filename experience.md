@@ -5,12 +5,14 @@ title: Work Experience
 
 # Work Experience
 
-## Principal AI Engineer @Ascentt Texas, USA
+## Senior AI Engineer @Ascentt-Toyota Motors Texas, USA
 **July 2024 - present**
 
 **In brief:**
-Developing GenAI applications for Toyota Motors North America which is impacting the Toyota Manufacturing units and allowing for faster debug of bugs on production line.....
-Exploring the unexplored large-scale horizons of GenAI
+ - Developed GenAI-based RAG frameworks for Toyota's global manufacturing, processing 1TB+ unstructured data for
+real-time query resolution.
+ - Utilized NLP, Opensearch,, and LangChain to optimize runtime bug fixes, reducing manufacturing downtime by 10%.
+ - Implemented CI/CD pipelines and core framework to streamline data ingestion for all AI based applications.
 
 ## Machine Learning Engineer @Pre-Fab Innovations Inc., CA, USA
 **Januray 2024 - July 2024**
