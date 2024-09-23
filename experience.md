@@ -5,7 +5,7 @@ title: Work Experience
 
 # Work Experience
 
-## Senior AI Engineer @Ascentt-Toyota Motors Texas, USA
+## Senior AI Engineer @Ascentt-Toyota Motors Plano-Texas, USA
 **July 2024 - present**
 
 **In brief:**
