@@ -15,7 +15,7 @@
             <a href="{{ '/projects' | relative_url }}">Projects</a>
             <a href="{{ '/blog' | relative_url }}">Blogs</a>
             <a href="{{ '/accomplishment' | relative_url }}">Accomplishments</a>
-            <a href="/assets/"{{site.resumename}} target="_blank">Resume</a>
+            <a href="/assets/{{ site.resumename }}" target="_blank">Resume</a>
         </nav>
     </header>
     <div class="content">
@@ -25,7 +25,7 @@
     <footer>
         <p>Connect with me on 
             <a href="https://github.com/{{ site.github_username }}">GitHub</a> || <a href="https://linkedin.com/in/{{ site.linkedin_username }}">LinkedIn</a>.</p>
-        <p><a href="/assets/Resume-Mittal-Satyam.pdf" target="_blank">Download My Resume</a></p>
+        <p><a href="/assets/{{ site.resumename }}" target="_blank">Download My Resume</a></p>
     </footer>
 </body>
 </html>
