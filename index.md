@@ -15,9 +15,6 @@ title: Home
             <a href="https://linkedin.com/in/satyam-sm" target="_blank" title="LinkedIn">
                 <img src="/assets/images/linkedin.webp" alt="LinkedIn Icon" class="social-icon">
             </a>
-            <a href="/assets/Resume-Mittal-Satyam.pdf" target="_blank" title="Download Resume">
-                Resume
-            </a>
              <a href="{{ '/blog' | relative_url }}" target="_blank" title="Satyam's Blogs">
                 Blogs
             </a>
