@@ -4,6 +4,7 @@ title: Blog
 ---
 
 # Blog Posts
+<h2> Linkedin Articles</h2> <a href="https://www.linkedin.com/in/satyam-sm/recent-activity/articles/" target="_blank"></a>
 
 <h2>Deep Learning</h2>
 <ul class="blog-listing">
