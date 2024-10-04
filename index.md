@@ -21,7 +21,7 @@ title: Home
              <a href="{{ '/blog' | relative_url }}" target="_blank" title="Satyam's Blogs">
                 Blogs
             </a>
-            
+            <a href="https://github.com/05satyam/MarshallingAI/wiki" target="_blank" > MarshallingAI Wiki </a>
         </div>
     </div>
 
