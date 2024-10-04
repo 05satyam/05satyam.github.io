@@ -5,7 +5,7 @@ title: Blog
 
 # Blog Posts
 <h2> Linkedin</h2> 
-   <li><a href="https://www.linkedin.com/in/satyam-sm/recent-activity/articles/" target="_blank"> Linkedin Articles</a> </li>
+   - [LinkedIn Articles](https://www.linkedin.com/in/satyam-sm/recent-activity/articles/)
 
 <h2>Deep Learning</h2>
 <ul class="blog-listing">
