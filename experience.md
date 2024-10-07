@@ -9,9 +9,10 @@ title: Work Experience
 **July 2024 - present**
 
 **In brief:**
- - Developed GenAI-based RAG frameworks for Toyota's global manufacturing, processing 1TB+ unstructured data for
-real-time query resolution.
- - Utilized NLP, Opensearch,, and LangChain to optimize runtime bug fixes, reducing manufacturing downtime by 10%.
+ - Developed GenAI RAG application for Toyota's manufacturing, processed 1TB+ unstructured data for real-time query
+resolution and ingested into Opensearch vector database based on cosine-similarity and knn-algorithm.
+ - Developed Agentic-Retrieval application based on Lang-chain Tools to search VectorDB, WhitePapers and resulted in
+15-20% reduction in time invested while debugging the battery manufacturing faults in a 24 hours
  - Implemented CI/CD pipelines and core framework to streamline data ingestion for all AI based applications.
 
 ## Machine Learning Engineer @Pre-Fab Innovations Inc., CA, USA
