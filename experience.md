@@ -5,15 +5,16 @@ title: Work Experience
 
 # Work Experience
 
-## Senior AI Engineer @Ascentt-Toyota Motors Plano-Texas, USA
+## Senior AI Engineer Toyota Motors Plano-Texas, USA
 **July 2024 - present**
 
 **In brief:**
- - Developed GenAI RAG application for Toyota's manufacturing, processed 1TB+ unstructured data for real-time query
-resolution and ingested into Opensearch vector database based on cosine-similarity and knn-algorithm.
- - Developed Agentic-Retrieval application based on Lang-chain Tools to search VectorDB, WhitePapers and resulted in
-15-20% reduction in time invested while debugging the battery manufacturing faults in a 24 hours
- - Implemented CI/CD pipelines and core framework to streamline data ingestion for all AI based applications.
+- Leading  one  GenAI product for Toyota Motors with a team of 5, incorporating AI-research, backend, and infra.
+- Developed RAG product for Toyota's manufacturing, processed 5TB+ unstructured data for real-time query resolution which resulted in 25% increase in fault detection at Battery manufacturing plant.
+- Developed core framework  to streamline data ingestion for all AI based applications across Ascentt and Toyota.
+- Developed knowledge graph for the 5TB+ motor  manufacturing data to feed into RAG as a source of truth.
+- Fulltime @ Ascentt and consilting to Toyota Motors on contract.
+
 
 ## Machine Learning Engineer @Pre-Fab Innovations Inc., CA, USA
 **Januray 2024 - July 2024**
