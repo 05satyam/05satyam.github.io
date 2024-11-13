@@ -15,9 +15,8 @@ title: Home
             <a href="https://linkedin.com/in/satyam-sm" target="_blank" title="LinkedIn">
                 <img src="/assets/images/linkedin.webp" alt="LinkedIn Icon" class="social-icon">
             </a>
-             <a href="{{ '/blog' | relative_url }}" target="_blank" title="Satyam's Blogs">
-                Blogs
-            </a>
+             <a href="{{ '/blog' | relative_url }}" target="_blank" title="Satyam's Blogs">Blogs</a>
+            
             <a href="https://github.com/05satyam/AI-ML/tree/main" target="_blank" > AI-ML GIT Repository </a>
         </div>
     </div>
